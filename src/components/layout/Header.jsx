@@ -1,0 +1,1 @@
+import React from 'react'; export default function Header({route}){return <header className="header"><div><p className="eyebrow">MONDAY · STUDY DESK</p><h1>{route.label}</h1></div><div className="header-meta"><span className="status-dot"/> Focus mode ready <div className="avatar">A</div></div></header>}
