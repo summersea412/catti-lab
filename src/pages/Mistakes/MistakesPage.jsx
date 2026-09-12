@@ -1,2 +1,4 @@
-import React from 'react';
-export default function MistakesPage(){return <div className='page'><p className='eyebrow'>CATTI LAB</p><h2>Mistakes & Notes</h2><p className='page-description'>A calm space to shape your translation practice.</p><div className='card-grid'>{Array.from({length:12},(_,i)=><div className='placeholder-card' key={i}>0{i+1}</div>)}</div></div>}
+import CompanionIllustration from '../../features/companion/CompanionIllustration';
+import React from 'react'; export default function MistakesPage(){return <div className="collection-page"><div className="page-hero"><div><p className="eyebrow">REVIEW & NOTES</p><h2>错题与积累</h2><p>把不确定的地方留下来，下一次会更清楚。</p></div></div><div className="collection-tabs"><button className="active">错题本</button><button>生词本</button><button>好表达</button><button>笔记</button></div><div className="collection-summary"><div><span>待复习</span><strong>0</strong></div><div><span>本周新增</span><strong>0</strong></div></div><CompanionIllustration character="green" size="medium" className="mistakes-companion" /><div className="empty-panel"><span className="empty-mark">✦</span><h3>还没有需要复习的内容</h3><p>完成训练后，值得回看的句子会在这里安静地等你。</p><button className="ui-button primary">去开始训练 →</button></div></div>}
+
+

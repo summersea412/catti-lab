@@ -1,2 +1,5 @@
-import React from 'react';
-export default function StudyRecordsPage(){return <div className='page'><p className='eyebrow'>CATTI LAB</p><h2>Study Records</h2><p className='page-description'>A calm space to shape your translation practice.</p><div className='card-grid'>{Array.from({length:12},(_,i)=><div className='placeholder-card' key={i}>0{i+1}</div>)}</div></div>}
+import CompanionIllustration from '../../features/companion/CompanionIllustration';
+import React from 'react'; export default function StudyRecordsPage(){return <div className="records-page"><div className="page-hero"><div><p className="eyebrow">STUDY HISTORY</p><h2>学习记录</h2><p>回头看见走过的路，也更容易继续向前。</p></div></div><div className="record-filters"><button className="active">全部</button><button>句子训练</button><button>段落训练</button><button>真题练习</button><button>错题复习</button></div><div className="records-layout"><div className="timeline"><h3>2026.09.12</h3><div className="timeline-item"><span className="timeline-dot"/><div><strong>今天还没有学习记录</strong><p>开始一次练习后，它会出现在这里。</p></div></div><h3>2026.09.11</h3><div className="timeline-item muted"><span className="timeline-dot"/><div><strong>暂无历史记录</strong><p>保持自己的节奏，慢慢积累。</p></div></div></div><aside className="records-rail"><div><span>累计学习时长</span><strong>—</strong></div><div><span>本周学习</span><strong>—</strong></div><blockquote>“Consistency is a quiet form of courage.”</blockquote><div className="companion-summary-slot"><CompanionIllustration character="blue" size="medium" anchor="bottom-right" /></div></aside></div></div>}
+
+
+
