@@ -1,0 +1,6 @@
+import {DIFFICULTY_LEVELS,REVIEW_STATUSES} from './contentDifficulty.js';
+export function normalizedText(value=''){return value.toLowerCase().replace(/\s+/g,' ').replace(/[\p{P}\p{S}]/gu,'').trim()}
+export function duplicateWarnings(items=[]){const seen=new Map();const warnings=[];for(const item of items){const key=normalizedText(item.prompt||item.sourceText||item.content);if(key&&seen.has(key))warnings.push({type:'duplicate-text',ids:[seen.get(key),item.id]});else if(key)seen.set(key,item.id)}return warnings}
+export function buildContentRegistry(groups={}){const all=Object.values(groups).flat();const by=(field)=>all.reduce((a,x)=>{const k=x[field]??'unknown';a[k]=(a[k]||0)+1;return a},{});return {total:all.length,byType:by('questionType'),byDirection:by('direction'),byDifficulty:by('difficultyLevel'),byTopic:by('topic'),byReviewStatus:by('reviewStatus'),bySourceType:by('sourceType'),byVerificationStatus:by('verificationStatus'),duplicateWarnings:duplicateWarnings(all),items:all}}
+export function validateRegistry(registry){return Boolean(registry&&registry.total===registry.items.length&&Object.keys(registry.byDifficulty).every(k=>DIFFICULTY_LEVELS.includes(k)||k==='unknown')&&Object.keys(registry.byReviewStatus).every(k=>REVIEW_STATUSES.includes(k)||k==='unknown'))}
+

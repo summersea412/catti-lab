@@ -9,3 +9,5 @@
 
 
 
+
+.choice-list{display:grid;gap:10px;margin:24px 0}.choice-list label{display:flex;align-items:center;gap:12px;border:1px solid var(--line);border-radius:8px;padding:14px 16px;background:var(--paper);cursor:pointer;color:var(--ink)}.choice-list label:has(input:checked){background:var(--lav);border-color:var(--lav-deep)}.choice-list input{accent-color:#8f7aa8}.category-filters{display:flex;gap:10px;flex-wrap:wrap}
