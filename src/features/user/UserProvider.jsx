@@ -1,5 +1,6 @@
 import React, { createContext, useEffect, useRef, useState } from 'react';
 import { saveProfile } from './userService';
+import { readStorage, writeStorage, STORAGE_KEYS } from '../../storage/storageAdapter';
 
 export const UserContext = createContext(null);
 const DAY = 86400000;
@@ -8,7 +9,7 @@ function localDay() {
   return Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
 }
 export default function UserProvider({ children }) {
-  const [profile, setProfile] = useState(()=>{try{return JSON.parse(localStorage.getItem('catti.profile')||localStorage.getItem('catti.user.profile')||localStorage.getItem('userProfile')||'null')}catch{return null}});
+  const [profile, setProfile] = useState(()=>readStorage(STORAGE_KEYS.profile, null) || readStorage('catti.user.profile', null) || readStorage('userProfile', null));
   const [isSaving, setIsSaving] = useState(false);
   const [today, setToday] = useState(localDay);
   const pending = useRef(false);
@@ -38,7 +39,7 @@ export default function UserProvider({ children }) {
     setIsSaving(true);
     try {
       const next = await saveProfile(profile, input);
-      const normalized={...next,primaryDirection:next.primaryDirection||next.trainingDirection||'balanced',trainingDirection:next.trainingDirection||next.primaryDirection||'balanced'}; setProfile(normalized); localStorage.setItem('catti.profile',JSON.stringify(normalized));
+      const normalized={...next,primaryDirection:next.primaryDirection||next.trainingDirection||'balanced',trainingDirection:next.trainingDirection||next.primaryDirection||'balanced'}; setProfile(normalized); writeStorage(STORAGE_KEYS.profile,normalized);
       return next;
     } finally {
       pending.current = false;
