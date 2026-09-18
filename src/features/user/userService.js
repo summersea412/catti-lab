@@ -20,8 +20,11 @@ export async function saveProfile(currentProfile, input) {
     },
     dailyStudyMinutes: input.dailyStudyMinutes,
     primaryDirection: input.primaryDirection,
+    trainingDirection: input.primaryDirection,
     createdAt: currentProfile?.createdAt ?? now,
     updatedAt: now,
   };
 }
+
+
 

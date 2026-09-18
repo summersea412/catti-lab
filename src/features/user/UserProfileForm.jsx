@@ -31,7 +31,7 @@ export default function UserProfileForm() {
     try {
       const saved = await updateProfile(draft);
       setDraft(saved);
-      setMessage('学习档案已保存');
+      setMessage('设置已保存');
     } catch (error) {
       setErrors(error.fields ?? { form: '暂时无法保存，请重试' });
     }
@@ -90,7 +90,7 @@ export default function UserProfileForm() {
         {errors.form && <p role="alert" className="field-error">{errors.form}</p>}
       </form>
     </Card>
-    <p className="profile-session-note">当前档案仅保留在本次打开期间，刷新页面后将重置。</p>
+    <p className="profile-session-note">设置会保存在当前设备，刷新后仍然保留。</p>
   </div>;
 }
 const styles = `
@@ -131,4 +131,5 @@ const styles = `
 .profile-session-note{font-size:11px;color:var(--muted);line-height:1.7;padding:0 5px}
 @media(max-width:700px){.profile-heading,.profile-fields,.profile-footer{padding:20px}.profile-heading{flex-wrap:wrap}.choice-row{grid-template-columns:repeat(2,1fr)}.profile-footer{flex-wrap:wrap}}
 `;
+
 

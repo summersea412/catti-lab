@@ -8,7 +8,7 @@ function localDay() {
   return Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
 }
 export default function UserProvider({ children }) {
-  const [profile, setProfile] = useState(null);
+  const [profile, setProfile] = useState(()=>{try{return JSON.parse(localStorage.getItem('catti.profile')||localStorage.getItem('catti.user.profile')||localStorage.getItem('userProfile')||'null')}catch{return null}});
   const [isSaving, setIsSaving] = useState(false);
   const [today, setToday] = useState(localDay);
   const pending = useRef(false);
@@ -38,7 +38,7 @@ export default function UserProvider({ children }) {
     setIsSaving(true);
     try {
       const next = await saveProfile(profile, input);
-      setProfile(next);
+      const normalized={...next,primaryDirection:next.primaryDirection||next.trainingDirection||'balanced',trainingDirection:next.trainingDirection||next.primaryDirection||'balanced'}; setProfile(normalized); localStorage.setItem('catti.profile',JSON.stringify(normalized));
       return next;
     } finally {
       pending.current = false;
@@ -55,4 +55,5 @@ export default function UserProvider({ children }) {
   const directionLabel = profile ? { balanced: '均衡', zh_en: '中译英', en_zh: '英译汉' }[profile.primaryDirection] : '未设置方向';
   return <UserContext.Provider value={{ profile, isSaving, updateProfile, daysUntilExam, countdownText, directionLabel }}>{children}</UserContext.Provider>;
 }
+
 

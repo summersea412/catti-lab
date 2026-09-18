@@ -2,7 +2,7 @@ import React from 'react';
 import Sidebar from './Sidebar';
 import Header from './Header';
 import Badge from '../ui/Badge';
-import useCurrentUser from '../../hooks/useCurrentUser';
+import useCurrentUser from '../../hooks/useCurrentUser';import {CompanionDock} from '../../features/desktopPet/CompanionProvider';
 export default function DashboardLayout({ children, active, onNavigate, route }) {
   const { profile, daysUntilExam, countdownText, directionLabel } = useCurrentUser();
   return <div className="app-shell">
@@ -36,11 +36,11 @@ export default function DashboardLayout({ children, active, onNavigate, route })
             <div className="goal-value" data-testid="daily-goal">{profile ? <>{profile.dailyStudyMinutes} <small>min</small></> : <small>尚未设置学习目标</small>}</div>
             <Badge data-testid="direction-badge">{directionLabel}</Badge>
           </section>}
-          <div className="rail-card quote-card"><p className="eyebrow">A LINE TO KEEP</p><p className="quote">“The best translation begins with attention.”</p><span className="quote-by">— CATTI LAB</span></div>
-        </aside>
+          <div className="rail-card quote-card"><p className="eyebrow">A LINE TO KEEP</p><p className="quote">“The best translation begins with attention.”</p><span className="quote-by">— CATTI LAB</span></div><CompanionDock />\n        </aside>
       </div>
     </main>
   </div>;
 }
+
 
 

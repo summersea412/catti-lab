@@ -1,0 +1,1 @@
+.today-page .today-layout{grid-template-columns:minmax(0,1fr)}.today-page .task-row{cursor:pointer;transition:background .15s}.today-page .task-row:hover{background:var(--lav)}

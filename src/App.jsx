@@ -3,5 +3,6 @@ import AppProviders from './app/AppProviders';
 import { routes } from './app/routes';
 import DashboardLayout from './components/layout/DashboardLayout';
 import FocusLayout from './components/layout/FocusLayout';
-export default function App(){const [path,setPath]=React.useState('today'); const route=routes.find(r=>r.id===path)||routes[0]; const Page=route.component; const Layout=route.focus?FocusLayout:DashboardLayout; return <AppProviders><Layout active={path} onNavigate={setPath} route={route}><Page/></Layout></AppProviders>}
+export default function App(){const [path,setPath]=React.useState('today'); React.useEffect(()=>{const h=e=>setPath(e.detail);window.addEventListener('catti:navigate',h);return()=>window.removeEventListener('catti:navigate',h)},[]); const route=routes.find(r=>r.id===path)||routes[0]; const Page=route.component; const Layout=route.focus?FocusLayout:DashboardLayout; return <AppProviders><Layout active={path} onNavigate={setPath} route={route}><Page/></Layout></AppProviders>}
+
 
