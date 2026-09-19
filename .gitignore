@@ -1,3 +1,4 @@
 node_modules/
+dist/
 .deployment/
 catti-study-assistant-old/
