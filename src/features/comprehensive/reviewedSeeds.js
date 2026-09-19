@@ -22,7 +22,29 @@ const rows=[
 ['grammar','能源','The project would proceed only if the loan were approved, in which case construction ___ the following spring.', ['would begin','begins','has begun','had begun'],'would begin','前句虚拟条件及后续 in which case 保持条件性未来关系，故 would begin。其他选项分别表示一般现在、已完成及过去之前完成，都不对应尚未满足的条件。'],
 ['grammar','经济','The consultants objected to ___ required to disclose commercially sensitive estimates.', ['being','be','have been','having'],'being','object to 中 to 是介词，后接动名词；被要求披露需 being required。be 为原形；have been 不能直接接介词；having required 变主动且缺宾语。']
 ];
-export const REVIEWED_OBJECTIVES=rows.map(([kind,topic,prompt,options,answer,explanation],i)=>reviewedSeed({id:'roundb_'+kind+'_'+String(i+1).padStart(3,'0'),contentType:kind,type:'comprehensive',questionType:kind,direction:'en-zh',topic,prompt,sourceText:prompt,options,answer,referenceAnswer:answer,explanation,estimatedMinutes:2,examLevel:'CATTI-2',paperType:'comprehensive',sectionType:'comprehensive-ability',skillTags:[kind,'context'],contentVersion:1},{tier:i===8||i===13||i===19?'foundation':'catti-standard',evidence:evidence(prompt,explanation,'必须结合限定条件排除语法或语义上看似可能的干扰项。','题干的因果、转折或范围限制决定唯一最佳选择。','语境主题：'+topic+'；不要求猜测题干之外的事实。','词义或句法选择需要保留原文限定，而非孤立词义匹配。'),notes:explanation}));
+const sentenceTranslations=[
+ '该豁免仅适用于年营业额低于这一门槛的企业；规模较大的企业不能援引这一豁免。',
+ '失业率表面上的上升部分是调查重新设计造成的表象：新的问卷把此前被排除的人也统计在内。',
+ '审计无法用通常的季节性波动解释这一差异，因为它每个季度都持续存在。',
+ '由于独立实验室尚未重复验证，研究团队将其发现称为暂时性的。',
+ '尽管承包商仍依法承担责任，协议还是把日常监督工作委托给了当地运营方。',
+ '历史学家把后来写成的回忆录视为佐证材料，可用于核查，但不能取代同时期的记录。',
+ '控制收入因素后，这种关联便消失了，这表明收入曾是一个混杂变量。',
+ '这座桥梁可供轻型车辆安全通行，但这并不足以证明可以不受限制地运输货物。',
+ '由于客户要在数月后才付款，而供应商的款项却必须先行支付，这家公司虽然保持偿付能力，仍面临流动性约束。',
+ '这份联合声明没有明确支持该提案，只是承认它值得进一步讨论。',
+ '如果当时保留的不是控制组，这种表面上的改善或许就会被单独归因于该干预措施。',
+ '由于农村家庭被排除在原始样本之外，它们后来被另行调查。',
+ '只有在修订后的数据经过独立核查之后，委员会才批准付款。',
+ '该委员会建议，不应仅凭一次自动评分就排除任何学生。',
+ '这些许可证中的每一份都规定了最高排放量，许可证必须每年续期。',
+ '服务分布极不均衡，以至于平均等待时间产生了误导。',
+ '问题不在于系统能否识别出一种模式，而在于该模式是否与这项决策有关。',
+ '促使历史学家重新展开调查的是相互冲突的叙述，而不是缺失的日期。',
+ '只有贷款获批，项目才会继续；在这种情况下，工程将在次年春季开工。',
+ '顾问们反对被要求披露商业敏感估算数据。'
+];
+export const REVIEWED_OBJECTIVES=rows.map(([kind,topic,prompt,options,answer,explanation],i)=>reviewedSeed({id:'roundb_'+kind+'_'+String(i+1).padStart(3,'0'),contentType:kind,type:'comprehensive',questionType:kind,direction:'en-zh',topic,prompt,sourceText:prompt,options,answer,referenceAnswer:answer,sentenceTranslation:sentenceTranslations[i],explanation,estimatedMinutes:2,examLevel:'CATTI-2',paperType:'comprehensive',sectionType:'comprehensive-ability',skillTags:[kind,'context'],contentVersion:1},{tier:i===8||i===13||i===19?'foundation':'catti-standard',evidence:evidence(prompt,explanation,'必须结合限定条件排除语法或语义上看似可能的干扰项。','题干的因果、转折或范围限制决定唯一最佳选择。','语境主题：'+topic+'；不要求猜测题干之外的事实。','词义或句法选择需要保留原文限定，而非孤立词义匹配。'),notes:explanation}));
 export const REVIEWED_READING=reviewedSeed({
 id:'roundb_reading_001',examLevel:'CATTI-2',paperType:'comprehensive',sectionType:'comprehensive-ability',contentType:'reading',type:'comprehensive',questionType:'reading',direction:'en-zh',topic:'档案数字化与代表性',
 sourceText:`When a municipal archive digitised its most frequently requested files, online visits rose sharply. Officials initially interpreted the increase as evidence that access had become more inclusive. Yet a subsequent survey found that most new visitors were university researchers and property consultants. Residents seeking records of informal employment or temporary accommodation still struggled to find material relevant to their lives. Their difficulty was not primarily a lack of internet access: many of the events they wanted to investigate had never generated documents that the archive collected.
