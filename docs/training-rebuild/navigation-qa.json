@@ -1,0 +1,219 @@
+{
+  "rows": [
+    {
+      "route": "training",
+      "back": "← 返回首页",
+      "destination": "首页",
+      "timerCount": 0,
+      "disabled": [],
+      "status": "PASS"
+    },
+    {
+      "route": "simulation",
+      "back": "← 返回训练入口",
+      "destination": "训练",
+      "timerCount": 0,
+      "disabled": [],
+      "status": "PASS"
+    },
+    {
+      "route": "practical",
+      "back": "← 返回训练入口",
+      "destination": "训练",
+      "timerCount": 0,
+      "disabled": [],
+      "status": "PASS"
+    },
+    {
+      "route": "comprehensive-hub",
+      "back": "← 返回训练入口",
+      "destination": "训练",
+      "timerCount": 0,
+      "disabled": [],
+      "status": "PASS"
+    },
+    {
+      "route": "analysis",
+      "back": "← 返回首页",
+      "destination": "首页",
+      "timerCount": 0,
+      "disabled": [],
+      "status": "PASS"
+    },
+    {
+      "route": "phrases",
+      "back": "← 返回首页",
+      "destination": "首页",
+      "timerCount": 0,
+      "disabled": [
+        "NEW · 即将开放"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "sentence",
+      "back": "← 返回翻译实务",
+      "destination": "翻译实务",
+      "timerCount": 1,
+      "disabled": [],
+      "status": "PASS"
+    },
+    {
+      "route": "paragraph",
+      "back": "← 返回翻译实务",
+      "destination": "翻译实务",
+      "timerCount": 1,
+      "disabled": [
+        "提交答案",
+        "上一篇"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "exam-passage",
+      "back": "← 返回翻译实务",
+      "destination": "翻译实务",
+      "timerCount": 1,
+      "disabled": [
+        "提交并保存",
+        "上一篇"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "full-practice",
+      "back": "← 返回整套模拟",
+      "destination": "整套模拟",
+      "timerCount": 0,
+      "disabled": [],
+      "status": "PASS"
+    },
+    {
+      "route": "comprehensive-simulation",
+      "back": "← 返回整套模拟",
+      "destination": "整套模拟",
+      "timerCount": 0,
+      "disabled": [],
+      "status": "PASS"
+    },
+    {
+      "route": "vocabulary",
+      "back": "← 返回综合能力",
+      "destination": "综合能力",
+      "timerCount": 1,
+      "disabled": [
+        "提交答案"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "grammar",
+      "back": "← 返回综合能力",
+      "destination": "综合能力",
+      "timerCount": 1,
+      "disabled": [
+        "提交答案"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "reading",
+      "back": "← 返回综合能力",
+      "destination": "综合能力",
+      "timerCount": 1,
+      "disabled": [
+        "上一篇",
+        "提交整篇",
+        "下一篇"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "cloze",
+      "back": "← 返回综合能力",
+      "destination": "综合能力",
+      "timerCount": 1,
+      "disabled": [
+        "上一篇",
+        "提交整篇",
+        "下一篇"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "comprehensive",
+      "back": "← 返回综合能力",
+      "destination": "综合能力",
+      "timerCount": 1,
+      "disabled": [
+        "提交答案"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "questions",
+      "back": "← 返回首页",
+      "destination": "首页",
+      "timerCount": 0,
+      "disabled": [
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补",
+        "资料已找到 · 正文待补"
+      ],
+      "status": "PASS"
+    },
+    {
+      "route": "mistakes",
+      "back": "← 返回首页",
+      "destination": "首页",
+      "timerCount": 0,
+      "disabled": [],
+      "status": "PASS"
+    },
+    {
+      "route": "records",
+      "back": "← 返回首页",
+      "destination": "首页",
+      "timerCount": 0,
+      "disabled": [],
+      "status": "PASS"
+    },
+    {
+      "route": "settings",
+      "back": "← 返回首页",
+      "destination": "首页",
+      "timerCount": 0,
+      "disabled": [],
+      "status": "PASS"
+    }
+  ],
+  "pastPaper": {
+    "ui": "24 年公开索引 · 45 场考试 · 站内可练 37 篇实务 / 2 道综合题",
+    "visible": 39,
+    "datasetTrainable": 39,
+    "status": "PASS"
+  },
+  "runtimeErrors": []
+}

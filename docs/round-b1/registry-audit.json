@@ -1,0 +1,2707 @@
+{
+  "researchDate": "2026-09-18",
+  "valid": true,
+  "stats": {
+    "years": 24,
+    "sessions": 42,
+    "subjectIndexes": 62,
+    "practicalPassages": 32,
+    "enZh": 18,
+    "zhEn": 14,
+    "comprehensiveItems": 1,
+    "vocabularyGrammar": 1,
+    "reading": 0,
+    "cloze": 0,
+    "completePracticalSessions": 0,
+    "partialPracticalSessions": 1,
+    "identifiedFourSlots": 6,
+    "trainablePassages": 2,
+    "trainableItems": 3,
+    "withReference": 1,
+    "sourceOnly": 1,
+    "comprehensiveWithAnswer": 1,
+    "candidateOrOnline": 4,
+    "institutional": 23,
+    "educational": 6,
+    "official": 0,
+    "sampleIndexes": 1,
+    "versionDifferences": 2,
+    "registryOnly": 40,
+    "registryOnlySamples": 1,
+    "registryOnlyMaterials": 30
+  },
+  "byYear": [
+    {
+      "year": "2003",
+      "sessions": [
+        "12"
+      ],
+      "practicalIndexes": 1,
+      "comprehensiveIndexes": 1,
+      "trainable": 0
+    },
+    {
+      "year": "2004",
+      "sessions": [
+        "11",
+        "05"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 2,
+      "trainable": 0
+    },
+    {
+      "year": "2005",
+      "sessions": [
+        "11",
+        "05"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 1,
+      "trainable": 0
+    },
+    {
+      "year": "2006",
+      "sessions": [
+        "11",
+        "05"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 1,
+      "trainable": 0
+    },
+    {
+      "year": "2007",
+      "sessions": [
+        "11",
+        "05"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 1,
+      "trainable": 0
+    },
+    {
+      "year": "2008",
+      "sessions": [
+        "11",
+        "05"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 1,
+      "trainable": 0
+    },
+    {
+      "year": "2009",
+      "sessions": [
+        "11",
+        "05"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 1,
+      "trainable": 0
+    },
+    {
+      "year": "2010",
+      "sessions": [
+        "11",
+        "05"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 1,
+      "trainable": 1
+    },
+    {
+      "year": "2011",
+      "sessions": [
+        "11",
+        "05"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 1,
+      "trainable": 0
+    },
+    {
+      "year": "2012",
+      "sessions": [
+        "11",
+        "05"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 0,
+      "trainable": 0
+    },
+    {
+      "year": "2013",
+      "sessions": [
+        "11",
+        "05"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 0,
+      "trainable": 0
+    },
+    {
+      "year": "2014",
+      "sessions": [
+        "11",
+        "05"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 0,
+      "trainable": 0
+    },
+    {
+      "year": "2015",
+      "sessions": [
+        "11",
+        "05"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 0,
+      "trainable": 0
+    },
+    {
+      "year": "2016",
+      "sessions": [
+        "11",
+        "05"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 2,
+      "trainable": 0
+    },
+    {
+      "year": "2017",
+      "sessions": [
+        "11",
+        "05"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 2,
+      "trainable": 0
+    },
+    {
+      "year": "2018",
+      "sessions": [
+        "11",
+        "05"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 2,
+      "trainable": 2
+    },
+    {
+      "year": "2019",
+      "sessions": [
+        "11",
+        "06"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 2,
+      "trainable": 0
+    },
+    {
+      "year": "2020",
+      "sessions": [
+        "11"
+      ],
+      "practicalIndexes": 1,
+      "comprehensiveIndexes": 0,
+      "trainable": 0
+    },
+    {
+      "year": "2021",
+      "sessions": [
+        "11",
+        "06"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 0,
+      "trainable": 0
+    },
+    {
+      "year": "2022",
+      "sessions": [
+        "11",
+        "06"
+      ],
+      "practicalIndexes": 2,
+      "comprehensiveIndexes": 0,
+      "trainable": 0
+    },
+    {
+      "year": "2023",
+      "sessions": [
+        "11"
+      ],
+      "practicalIndexes": 1,
+      "comprehensiveIndexes": 0,
+      "trainable": 0
+    },
+    {
+      "year": "2024",
+      "sessions": [
+        "10"
+      ],
+      "practicalIndexes": 1,
+      "comprehensiveIndexes": 0,
+      "trainable": 0
+    },
+    {
+      "year": "2025",
+      "sessions": [
+        "06"
+      ],
+      "practicalIndexes": 1,
+      "comprehensiveIndexes": 1,
+      "trainable": 0
+    },
+    {
+      "year": "2026",
+      "sessions": [
+        "06"
+      ],
+      "practicalIndexes": 1,
+      "comprehensiveIndexes": 0,
+      "trainable": 0
+    }
+  ],
+  "unresolvedLeads": [
+    {
+      "url": "https://m.koolearn.com/english/20221114/852432.html",
+      "note": "标题2023实务，发表于2022；不能据此认定2023考试。"
+    },
+    {
+      "url": "https://m.koolearn.com/english/20221215/854129.html",
+      "note": "标题2023综合，发表于2022；完形题考试年份待辨认。"
+    },
+    {
+      "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5758.html",
+      "note": "标题2016年12月，合集2016年11月，场次标注冲突。"
+    },
+    {
+      "url": "https://www.scribd.com/document/851605337/二笔综合早",
+      "note": "综合公开目录可交叉核对；未下载受限文件。"
+    }
+  ],
+  "records": [
+    {
+      "id": "catti2-2026-06",
+      "year": "2026",
+      "session": "06月",
+      "month": "06",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://www.listentoworld.com.cn/blog/catti-2026-6",
+          "kind": "recollection",
+          "note": "考生回忆整理 · 非官方原卷",
+          "subject": "practical",
+          "evidence": "2026年06月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": [
+        {
+          "id": "catti2-2026-06-en-zh-1",
+          "paperId": "catti2-2026-06",
+          "year": "2026",
+          "session": "06月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 1,
+          "title": "德国经济与衰退风险",
+          "topic": "德国经济与衰退风险",
+          "sourceNote": "考生回忆整理 · 非官方原卷",
+          "sourceKind": "recollection",
+          "variants": [
+            {
+              "id": "catti2-2026-06-en-zh-1-v1",
+              "title": "德国经济与衰退风险",
+              "sourceURLs": [
+                "https://www.listentoworld.com.cn/blog/catti-2026-6"
+              ],
+              "completeness": "index",
+              "reason": "篇目已定位；正文未导入，未将索引计为训练内容",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2026-06-en-zh-2",
+          "paperId": "catti2-2026-06",
+          "year": "2026",
+          "session": "06月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 2,
+          "title": "误译及其历史影响",
+          "topic": "误译及其历史影响",
+          "sourceNote": "考生回忆整理 · 非官方原卷",
+          "sourceKind": "recollection",
+          "variants": [
+            {
+              "id": "catti2-2026-06-en-zh-2-v1",
+              "title": "误译及其历史影响",
+              "sourceURLs": [
+                "https://www.listentoworld.com.cn/blog/catti-2026-6"
+              ],
+              "completeness": "index",
+              "reason": "篇目已定位；正文未导入，未将索引计为训练内容",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2026-06-zh-en-1",
+          "paperId": "catti2-2026-06",
+          "year": "2026",
+          "session": "06月",
+          "subject": "practical",
+          "section": "zh-en",
+          "direction": "zh-en",
+          "number": 1,
+          "title": "人工智能的数据、算法与算力",
+          "topic": "人工智能的数据、算法与算力",
+          "sourceNote": "考生回忆整理 · 非官方原卷",
+          "sourceKind": "recollection",
+          "variants": [
+            {
+              "id": "catti2-2026-06-zh-en-1-v1",
+              "title": "人工智能的数据、算法与算力",
+              "sourceURLs": [
+                "https://www.listentoworld.com.cn/blog/catti-2026-6"
+              ],
+              "completeness": "index",
+              "reason": "篇目已定位；正文未导入，未将索引计为训练内容",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2026-06-zh-en-2",
+          "paperId": "catti2-2026-06",
+          "year": "2026",
+          "session": "06月",
+          "subject": "practical",
+          "section": "zh-en",
+          "direction": "zh-en",
+          "number": 2,
+          "title": "性别平等与妇女发展",
+          "topic": "性别平等与妇女发展",
+          "sourceNote": "考生回忆整理 · 非官方原卷",
+          "sourceKind": "recollection",
+          "variants": [
+            {
+              "id": "catti2-2026-06-zh-en-2-v1",
+              "title": "性别平等与妇女发展",
+              "sourceURLs": [
+                "https://www.listentoworld.com.cn/blog/catti-2026-6"
+              ],
+              "completeness": "index",
+              "reason": "篇目已定位；正文未导入，未将索引计为训练内容",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catti2-2025-06",
+      "year": "2025",
+      "session": "06月",
+      "month": "06",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://www.kaosee.cn/index.php/home/news/article/id/9667.html",
+          "kind": "institution",
+          "note": "机构整理 · 非官方原卷",
+          "subject": "practical",
+          "evidence": "2025年06月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://www.sohu.com/a/906752936_121124020",
+          "kind": "recollection",
+          "note": "考生回忆整理 · 非官方原卷",
+          "subject": "comprehensive",
+          "evidence": "译国译民教师及学员回忆：二笔综合仅答案图片预览，完整内容需另行领取。没有题干，不计为可训练题目",
+          "checkedAt": "2026-09-18",
+          "access": "public-preview"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "回忆版综合答案预览；缺少对应题干及选项，暂不计题数",
+          "sections": []
+        }
+      },
+      "materials": [
+        {
+          "id": "catti2-2025-06-en-zh-1",
+          "paperId": "catti2-2025-06",
+          "year": "2025",
+          "session": "06月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 1,
+          "title": "科学奖项与创新激励",
+          "topic": "科学奖项与创新激励",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2025-06-en-zh-1-v1",
+              "title": "科学奖项与创新激励",
+              "sourceURLs": [
+                "https://www.kaosee.cn/index.php/home/news/article/id/9667.html"
+              ],
+              "completeness": "index",
+              "reason": "篇目已定位；正文未导入，未将索引计为训练内容",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2025-06-en-zh-2",
+          "paperId": "catti2-2025-06",
+          "year": "2025",
+          "session": "06月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 2,
+          "title": "语言相对论",
+          "topic": "语言相对论",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2025-06-en-zh-2-v1",
+              "title": "语言相对论",
+              "sourceURLs": [
+                "https://www.kaosee.cn/index.php/home/news/article/id/9667.html"
+              ],
+              "completeness": "index",
+              "reason": "篇目已定位；正文未导入，未将索引计为训练内容",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2025-06-zh-en-1",
+          "paperId": "catti2-2025-06",
+          "year": "2025",
+          "session": "06月",
+          "subject": "practical",
+          "section": "zh-en",
+          "direction": "zh-en",
+          "number": 1,
+          "title": "海南消博会与开放合作",
+          "topic": "海南消博会与开放合作",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2025-06-zh-en-1-v1",
+              "title": "海南消博会与开放合作",
+              "sourceURLs": [
+                "https://www.kaosee.cn/index.php/home/news/article/id/9667.html"
+              ],
+              "completeness": "index",
+              "reason": "篇目已定位；正文未导入，未将索引计为训练内容",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2025-06-zh-en-2",
+          "paperId": "catti2-2025-06",
+          "year": "2025",
+          "session": "06月",
+          "subject": "practical",
+          "section": "zh-en",
+          "direction": "zh-en",
+          "number": 2,
+          "title": "废旧家电回收",
+          "topic": "废旧家电回收",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2025-06-zh-en-2-v1",
+              "title": "废旧家电回收",
+              "sourceURLs": [
+                "https://www.kaosee.cn/index.php/home/news/article/id/9667.html"
+              ],
+              "completeness": "index",
+              "reason": "篇目已定位；正文未导入，未将索引计为训练内容",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catti2-2024-10",
+      "year": "2024",
+      "session": "10月",
+      "month": "10",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://www.9kd.com/note/8952022",
+          "kind": "institution",
+          "note": "机构整理 · 非官方原卷",
+          "subject": "practical",
+          "evidence": "2024年10月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": [
+        {
+          "id": "catti2-2024-10-en-zh-1",
+          "paperId": "catti2-2024-10",
+          "year": "2024",
+          "session": "10月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 1,
+          "title": "抵押贷款利率",
+          "topic": "抵押贷款利率",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2024-10-en-zh-1-v1",
+              "title": "抵押贷款利率",
+              "sourceURLs": [
+                "https://www.9kd.com/note/8952022"
+              ],
+              "completeness": "index",
+              "reason": "公开页面只有节选译文，尚无完整正文",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2024-10-en-zh-2",
+          "paperId": "catti2-2024-10",
+          "year": "2024",
+          "session": "10月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 2,
+          "title": "体育竞技与竞争",
+          "topic": "体育竞技与竞争",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2024-10-en-zh-2-v1",
+              "title": "体育竞技与竞争",
+              "sourceURLs": [
+                "https://www.9kd.com/note/8952022"
+              ],
+              "completeness": "index",
+              "reason": "公开页面只有节选译文，尚无完整正文",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2024-10-zh-en-1",
+          "paperId": "catti2-2024-10",
+          "year": "2024",
+          "session": "10月",
+          "subject": "practical",
+          "section": "zh-en",
+          "direction": "zh-en",
+          "number": 1,
+          "title": "预防未成年人犯罪",
+          "topic": "预防未成年人犯罪",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2024-10-zh-en-1-v1",
+              "title": "预防未成年人犯罪",
+              "sourceURLs": [
+                "https://www.9kd.com/note/8952022"
+              ],
+              "completeness": "index",
+              "reason": "公开页面只有节选译文，尚无完整正文",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2024-10-zh-en-2",
+          "paperId": "catti2-2024-10",
+          "year": "2024",
+          "session": "10月",
+          "subject": "practical",
+          "section": "zh-en",
+          "direction": "zh-en",
+          "number": 2,
+          "title": "人与自然",
+          "topic": "人与自然",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2024-10-zh-en-2-v1",
+              "title": "人与自然",
+              "sourceURLs": [
+                "https://www.9kd.com/note/8952022"
+              ],
+              "completeness": "index",
+              "reason": "公开页面只有节选译文，尚无完整正文",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catti2-2023-11",
+      "year": "2023",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://m.mtipass.com/nd.jsp?id=13452",
+          "kind": "institution",
+          "note": "机构整理 · 非官方原卷",
+          "subject": "practical",
+          "evidence": "2023年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": [
+        {
+          "id": "catti2-2023-11-en-zh-1",
+          "paperId": "catti2-2023-11",
+          "year": "2023",
+          "session": "11月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 1,
+          "title": "性别平等",
+          "topic": "性别平等",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2023-11-en-zh-1-v1",
+              "title": "性别平等",
+              "sourceURLs": [
+                "https://m.mtipass.com/nd.jsp?id=13452"
+              ],
+              "completeness": "index",
+              "reason": "公开整理有星号替换；保留版本，未补造缺词",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2023-11-en-zh-2",
+          "paperId": "catti2-2023-11",
+          "year": "2023",
+          "session": "11月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 2,
+          "title": "气候工程",
+          "topic": "气候工程",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2023-11-en-zh-2-v1",
+              "title": "气候工程",
+              "sourceURLs": [
+                "https://m.mtipass.com/nd.jsp?id=13452"
+              ],
+              "completeness": "index",
+              "reason": "公开整理有星号替换；保留版本，未补造缺词",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2023-11-zh-en-1",
+          "paperId": "catti2-2023-11",
+          "year": "2023",
+          "session": "11月",
+          "subject": "practical",
+          "section": "zh-en",
+          "direction": "zh-en",
+          "number": 1,
+          "title": "大熊猫野化放归",
+          "topic": "大熊猫野化放归",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2023-11-zh-en-1-v1",
+              "title": "大熊猫野化放归",
+              "sourceURLs": [
+                "https://m.mtipass.com/nd.jsp?id=13452"
+              ],
+              "completeness": "index",
+              "reason": "公开整理有星号替换；保留版本，未补造缺词",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2023-11-zh-en-2",
+          "paperId": "catti2-2023-11",
+          "year": "2023",
+          "session": "11月",
+          "subject": "practical",
+          "section": "zh-en",
+          "direction": "zh-en",
+          "number": 2,
+          "title": "污染防治与生态文明",
+          "topic": "污染防治与生态文明",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2023-11-zh-en-2-v1",
+              "title": "污染防治与生态文明",
+              "sourceURLs": [
+                "https://m.mtipass.com/nd.jsp?id=13452"
+              ],
+              "completeness": "index",
+              "reason": "公开整理有星号替换；保留版本，未补造缺词",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catti2-2022-11",
+      "year": "2022",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5603.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2022年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": [
+        {
+          "id": "catti2-2022-11-en-zh-1",
+          "paperId": "catti2-2022-11",
+          "year": "2022",
+          "session": "11月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 1,
+          "title": "美国失业与劳动力参与",
+          "topic": "美国失业与劳动力参与",
+          "sourceNote": "公开教学资料整理",
+          "sourceKind": "educational",
+          "variants": [
+            {
+              "id": "catti2-2022-11-en-zh-1-v1",
+              "title": "美国失业与劳动力参与",
+              "sourceURLs": [
+                "https://demo.ltpower.net/web/hydxswyy/news/show-5603.html"
+              ],
+              "completeness": "index",
+              "reason": "已定位公开来源；正文尚未导入",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2022-11-en-zh-2",
+          "paperId": "catti2-2022-11",
+          "year": "2022",
+          "session": "11月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 2,
+          "title": "疫情对交通的影响与合作",
+          "topic": "疫情对交通的影响与合作",
+          "sourceNote": "公开教学资料整理",
+          "sourceKind": "educational",
+          "variants": [
+            {
+              "id": "catti2-2022-11-en-zh-2-v1",
+              "title": "疫情对交通的影响与合作",
+              "sourceURLs": [
+                "https://demo.ltpower.net/web/hydxswyy/news/show-5603.html"
+              ],
+              "completeness": "index",
+              "reason": "已定位公开来源；正文尚未导入",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2022-11-zh-en-1",
+          "paperId": "catti2-2022-11",
+          "year": "2022",
+          "session": "11月",
+          "subject": "practical",
+          "section": "zh-en",
+          "direction": "zh-en",
+          "number": 1,
+          "title": "职业教育",
+          "topic": "职业教育",
+          "sourceNote": "公开教学资料整理",
+          "sourceKind": "educational",
+          "variants": [
+            {
+              "id": "catti2-2022-11-zh-en-1-v1",
+              "title": "职业教育",
+              "sourceURLs": [
+                "https://demo.ltpower.net/web/hydxswyy/news/show-5603.html"
+              ],
+              "completeness": "index",
+              "reason": "已定位公开来源；正文尚未导入",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catti2-2022-06",
+      "year": "2022",
+      "session": "06月",
+      "month": "06",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5602.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2022年06月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": [
+        {
+          "id": "catti2-2022-06-en-zh-1",
+          "paperId": "catti2-2022-06",
+          "year": "2022",
+          "session": "06月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 1,
+          "title": "知识产权与体育",
+          "topic": "知识产权与体育",
+          "sourceNote": "公开教学资料整理",
+          "sourceKind": "educational",
+          "variants": [
+            {
+              "id": "catti2-2022-06-en-zh-1-v1",
+              "title": "知识产权与体育",
+              "sourceURLs": [
+                "https://demo.ltpower.net/web/hydxswyy/news/show-5602.html"
+              ],
+              "completeness": "index",
+              "reason": "已定位公开来源；正文尚未导入",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2022-06-en-zh-2",
+          "paperId": "catti2-2022-06",
+          "year": "2022",
+          "session": "06月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 2,
+          "title": "教科文组织与共同生活",
+          "topic": "教科文组织与共同生活",
+          "sourceNote": "公开教学资料整理",
+          "sourceKind": "educational",
+          "variants": [
+            {
+              "id": "catti2-2022-06-en-zh-2-v1",
+              "title": "教科文组织与共同生活",
+              "sourceURLs": [
+                "https://demo.ltpower.net/web/hydxswyy/news/show-5602.html"
+              ],
+              "completeness": "index",
+              "reason": "已定位公开来源；正文尚未导入",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catti2-2021-11",
+      "year": "2021",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://easterneast.com/product/65e62ef8f0f22465e2ccccf4/",
+          "kind": "catalogue",
+          "note": "出版目录索引 · 暂无站内正文",
+          "subject": "practical",
+          "evidence": "华研外语公开目录明确列出2021年11月实务，不把所附综合模拟卷当真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2021-06",
+      "year": "2021",
+      "session": "06月",
+      "month": "06",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/1965.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "目录明确列出该场次；正文打开超时，未推定篇目数",
+          "checkedAt": "2026-09-18",
+          "access": "index-only"
+        },
+        {
+          "url": "https://m.hqwx.com/ziliao/class_catti/7365/18571/",
+          "kind": "institution",
+          "note": "机构整理 · 非官方原卷",
+          "subject": "practical",
+          "evidence": "2021年06月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": [
+        {
+          "id": "catti2-2021-06-en-zh-1",
+          "paperId": "catti2-2021-06",
+          "year": "2021",
+          "session": "06月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 1,
+          "title": "劳动力利用不足与经济增长",
+          "topic": "劳动力利用不足与经济增长",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2021-06-en-zh-1-v1",
+              "title": "劳动力利用不足与经济增长",
+              "sourceURLs": [
+                "https://m.hqwx.com/ziliao/class_catti/7365/18571/"
+              ],
+              "completeness": "index",
+              "reason": "已定位公开来源；正文尚未导入",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2021-06-en-zh-2",
+          "paperId": "catti2-2021-06",
+          "year": "2021",
+          "session": "06月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 2,
+          "title": "隐喻",
+          "topic": "隐喻",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2021-06-en-zh-2-v1",
+              "title": "隐喻",
+              "sourceURLs": [
+                "https://m.hqwx.com/ziliao/class_catti/7365/18571/"
+              ],
+              "completeness": "index",
+              "reason": "已定位公开来源；正文尚未导入",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2021-06-zh-en-1",
+          "paperId": "catti2-2021-06",
+          "year": "2021",
+          "session": "06月",
+          "subject": "practical",
+          "section": "zh-en",
+          "direction": "zh-en",
+          "number": 1,
+          "title": "国产肺炎球菌疫苗",
+          "topic": "国产肺炎球菌疫苗",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2021-06-zh-en-1-v1",
+              "title": "国产肺炎球菌疫苗",
+              "sourceURLs": [
+                "https://m.hqwx.com/ziliao/class_catti/7365/18571/"
+              ],
+              "completeness": "index",
+              "reason": "已定位公开来源；正文尚未导入",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catti2-2020-11",
+      "year": "2020",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5600.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2020年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://m.hqwx.com/ziliao/class_catti/7365/18571/",
+          "kind": "institution",
+          "note": "机构整理 · 非官方原卷",
+          "subject": "practical",
+          "evidence": "2020年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": [
+        {
+          "id": "catti2-2020-11-en-zh-1",
+          "paperId": "catti2-2020-11",
+          "year": "2020",
+          "session": "11月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 1,
+          "title": "世界经济发展",
+          "topic": "世界经济发展",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2020-11-en-zh-1-v1",
+              "title": "世界经济发展",
+              "sourceURLs": [
+                "https://m.hqwx.com/ziliao/class_catti/7365/18571/"
+              ],
+              "completeness": "index",
+              "reason": "篇目已定位；正文未导入，未将索引计为训练内容",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2020-11-en-zh-2",
+          "paperId": "catti2-2020-11",
+          "year": "2020",
+          "session": "11月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 2,
+          "title": "社交媒体虚假消息",
+          "topic": "社交媒体虚假消息",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2020-11-en-zh-2-v1",
+              "title": "社交媒体虚假消息",
+              "sourceURLs": [
+                "https://m.hqwx.com/ziliao/class_catti/7365/18571/"
+              ],
+              "completeness": "index",
+              "reason": "篇目已定位；正文未导入，未将索引计为训练内容",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2020-11-zh-en-1",
+          "paperId": "catti2-2020-11",
+          "year": "2020",
+          "session": "11月",
+          "subject": "practical",
+          "section": "zh-en",
+          "direction": "zh-en",
+          "number": 1,
+          "title": "抗击新冠疫情",
+          "topic": "抗击新冠疫情",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2020-11-zh-en-1-v1",
+              "title": "抗击新冠疫情",
+              "sourceURLs": [
+                "https://m.hqwx.com/ziliao/class_catti/7365/18571/"
+              ],
+              "completeness": "index",
+              "reason": "篇目已定位；正文未导入，未将索引计为训练内容",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2020-11-zh-en-2",
+          "paperId": "catti2-2020-11",
+          "year": "2020",
+          "session": "11月",
+          "subject": "practical",
+          "section": "zh-en",
+          "direction": "zh-en",
+          "number": 2,
+          "title": "生猪保价稳供",
+          "topic": "生猪保价稳供",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2020-11-zh-en-2-v1",
+              "title": "生猪保价稳供",
+              "sourceURLs": [
+                "https://m.hqwx.com/ziliao/class_catti/7365/18571/"
+              ],
+              "completeness": "index",
+              "reason": "篇目已定位；正文未导入，未将索引计为训练内容",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catti2-2019-11",
+      "year": "2019",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5599.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2019年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5749.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "部分考后回忆 / 题源材料，不是完整试卷",
+          "sections": [
+            "词汇语法",
+            "阅读",
+            "完形"
+          ]
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2019-06",
+      "year": "2019",
+      "session": "06月",
+      "month": "06",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5598.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2019年06月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5751.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "部分考后回忆 / 题源材料，不是完整试卷",
+          "sections": [
+            "词汇语法",
+            "阅读",
+            "完形"
+          ]
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2018-11",
+      "year": "2018",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5752.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://m.hujiang.com/en_fanyi/p1279534/",
+          "kind": "institution",
+          "note": "机构整理 · 非官方原卷",
+          "subject": "practical",
+          "evidence": "2018年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://www.hjenglish.com/new/p1279535/",
+          "kind": "institution",
+          "note": "机构整理 · 非官方原卷",
+          "subject": "practical",
+          "evidence": "2018年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://www.hjenglish.com/new/p1279536/",
+          "kind": "institution",
+          "note": "机构整理 · 非官方原卷",
+          "subject": "practical",
+          "evidence": "2018年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://mtoutiao.xdf.cn/kyfy/201907/10955820.html",
+          "kind": "institution",
+          "note": "机构整理 · 非官方原卷",
+          "subject": "practical",
+          "evidence": "2018年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://www.hjenglish.com/new/p1279537/",
+          "kind": "institution",
+          "note": "机构整理 · 非官方原卷",
+          "subject": "practical",
+          "evidence": "2018年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "部分考后回忆 / 题源材料，不是完整试卷",
+          "sections": [
+            "词汇语法",
+            "阅读"
+          ]
+        },
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": [
+        {
+          "id": "catti2-2018-11-en-zh-1",
+          "paperId": "catti2-2018-11",
+          "year": "2018",
+          "session": "11月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 1,
+          "title": "手机依恋与心理安全感",
+          "topic": "手机依恋与心理安全感",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2018-11-en-zh-1-v1",
+              "title": "手机依恋与心理安全感",
+              "sourceURLs": [
+                "https://m.hujiang.com/en_fanyi/p1279534/"
+              ],
+              "completeness": "index",
+              "reason": "已定位公开来源；正文尚未导入",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2018-11-en-zh-2",
+          "paperId": "catti2-2018-11",
+          "year": "2018",
+          "session": "11月",
+          "subject": "practical",
+          "section": "en-zh",
+          "direction": "en-zh",
+          "number": 2,
+          "title": "贸易保护与配额",
+          "topic": "贸易保护与配额",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2018-11-en-zh-2-v1",
+              "title": "贸易保护与配额",
+              "sourceURLs": [
+                "https://www.hjenglish.com/new/p1279535/"
+              ],
+              "completeness": "index",
+              "reason": "公开版本首段存在省略及主题跳跃，保留索引，不把残文当完整训练",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2018-11-zh-en-1",
+          "paperId": "catti2-2018-11",
+          "year": "2018",
+          "session": "11月",
+          "subject": "practical",
+          "section": "zh-en",
+          "direction": "zh-en",
+          "number": 1,
+          "title": "中医药与中华文明",
+          "topic": "中医药与中华文明",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2018-11-zh-en-1-v1",
+              "title": "中医药与中华文明",
+              "sourceURLs": [
+                "https://www.hjenglish.com/new/p1279536/",
+                "https://m.hujiang.com/en_festival/p1279536/",
+                "https://www.xinhuanet.com/politics/2016-12/06/c_1120064848.htm",
+                "https://english.www.gov.cn/archive/white_paper/2016/12/06/content_281475509333700.htm"
+              ],
+              "completeness": "complete",
+              "reason": "按公开整理节选；与新东方同场次版本主题不同",
+              "rights": "government-document-extract",
+              "referenceNote": "题源白皮书公开英文译文（按节选对齐），非考试官方答案",
+              "sourceCharacters": 303,
+              "hasReference": true
+            },
+            {
+              "id": "catti2-2018-11-zh-en-1-v2",
+              "title": "网络民意与公共沟通",
+              "sourceURLs": [
+                "https://mtoutiao.xdf.cn/kyfy/201907/10955820.html"
+              ],
+              "completeness": "index",
+              "reason": "同一场次位置出现不同主题；保留公开归属差异，尚未恢复此版本正文",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        },
+        {
+          "id": "catti2-2018-11-zh-en-2",
+          "paperId": "catti2-2018-11",
+          "year": "2018",
+          "session": "11月",
+          "subject": "practical",
+          "section": "zh-en",
+          "direction": "zh-en",
+          "number": 2,
+          "title": "农业合作与粮食安全",
+          "topic": "农业合作与粮食安全",
+          "sourceNote": "机构整理 · 非官方原卷",
+          "sourceKind": "institution",
+          "variants": [
+            {
+              "id": "catti2-2018-11-zh-en-2-v1",
+              "title": "农业合作与粮食安全",
+              "sourceURLs": [
+                "https://www.hjenglish.com/new/p1279537/",
+                "https://www.mfa.gov.cn/ziliao_674904/zt_674979/ywzt_675099/2014zt_675101/lkqcf_675191/zxxxs_675193/201410/t20141016_9282951.shtml"
+              ],
+              "completeness": "complete",
+              "reason": "按公开整理节选；与新东方同场次版本主题不同",
+              "rights": "government-speech-extract",
+              "sourceCharacters": 358,
+              "hasReference": false
+            },
+            {
+              "id": "catti2-2018-11-zh-en-2-v2",
+              "title": "中国消费市场与汽车市场",
+              "sourceURLs": [
+                "https://mtoutiao.xdf.cn/kyfy/201907/10955820.html"
+              ],
+              "completeness": "index",
+              "reason": "同一场次位置出现不同主题；保留公开归属差异，尚未恢复此版本正文",
+              "sourceCharacters": 0,
+              "hasReference": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catti2-2018-05",
+      "year": "2018",
+      "session": "05月",
+      "month": "05",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5597.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2018年05月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5754.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "历史结构尚未逐题恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2017-11",
+      "year": "2017",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5596.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2017年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/garbage/video/20230405%2F143358.pdf",
+          "kind": "reprint",
+          "note": "公开转载整理 · 非官方原卷",
+          "subject": "comprehensive",
+          "evidence": "PDF目录为11月；教学网站单篇标题误写12月。保留冲突，不新增12月考试场次",
+          "checkedAt": "2026-09-18",
+          "access": "public-index",
+          "dateDiscrepancy": "单篇标题12月与合集11月不一致"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "历史结构尚未逐题恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2017-05",
+      "year": "2017",
+      "session": "05月",
+      "month": "05",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5595.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2017年05月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/1966/2.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "历史结构尚未逐题恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2016-11",
+      "year": "2016",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/1965.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "目录明确列出该场次；正文打开超时，未推定篇目数",
+          "checkedAt": "2026-09-18",
+          "access": "index-only"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/garbage/video/20230405%2F143358.pdf",
+          "kind": "reprint",
+          "note": "公开转载整理 · 非官方原卷",
+          "subject": "comprehensive",
+          "evidence": "PDF目录为11月；教学网站单篇标题误写12月。保留冲突，不新增12月考试场次",
+          "checkedAt": "2026-09-18",
+          "access": "public-index",
+          "dateDiscrepancy": "单篇标题12月与合集11月不一致"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "历史结构尚未逐题恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2016-05",
+      "year": "2016",
+      "session": "05月",
+      "month": "05",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5593.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2016年05月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5759.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "历史结构尚未逐题恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2015-11",
+      "year": "2015",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5592.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2015年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2015-05",
+      "year": "2015",
+      "session": "05月",
+      "month": "05",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5591.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2015年05月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2014-11",
+      "year": "2014",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5590.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2014年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2014-05",
+      "year": "2014",
+      "session": "05月",
+      "month": "05",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/1965/2.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "目录明确列出该场次；正文打开超时，未推定篇目数",
+          "checkedAt": "2026-09-18",
+          "access": "index-only"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2013-11",
+      "year": "2013",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5588.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2013年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2013-05",
+      "year": "2013",
+      "session": "05月",
+      "month": "05",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5587.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2013年05月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2012-11",
+      "year": "2012",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://max.book118.com/html/2024/0902/6112242132010215.shtm",
+          "kind": "reprint",
+          "note": "公开转载整理 · 非官方原卷",
+          "subject": "practical",
+          "evidence": "公开目录明确列出该场次；仅索引，未访问付费正文",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2012-05",
+      "year": "2012",
+      "session": "05月",
+      "month": "05",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5586.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2012年05月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2011-11",
+      "year": "2011",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5584.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2011年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2011-05",
+      "year": "2011",
+      "session": "05月",
+      "month": "05",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5585.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2011年05月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/1966.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "历史结构尚未逐题恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2010-sample",
+      "year": "2010",
+      "session": "样题（非考试场次）",
+      "month": "sample",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/garbage/video/20230405%2F143358.pdf",
+          "kind": "sample",
+          "note": "公开样题转载 · 来源待进一步核验",
+          "subject": "comprehensive",
+          "evidence": "PDF目录明确标注2010新样题，不计入历年考试场次数",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "历史结构尚未逐题恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2010-11",
+      "year": "2010",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5583.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2010年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5762.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "词汇语法60题 / 阅读30题 / 完形20空；本地只导入第1题，其他内容保留来源链接",
+          "sections": []
+        }
+      },
+      "materials": [
+        {
+          "id": "catti2-2010-11-vocabulary-grammar-1",
+          "paperId": "catti2-2010-11",
+          "year": "2010",
+          "session": "11月",
+          "subject": "comprehensive",
+          "section": "vocabulary-grammar",
+          "direction": null,
+          "number": 1,
+          "title": "词汇选择 · 互联网访问",
+          "topic": "词汇选择 · 互联网访问",
+          "sourceNote": "公开教学资料整理",
+          "sourceKind": "educational",
+          "variants": [
+            {
+              "id": "catti2-2010-11-vocabulary-grammar-1-v1",
+              "title": "词汇选择 · 互联网访问",
+              "sourceURLs": [
+                "https://demo.ltpower.net/web/hydxswyy/news/show-5762.html"
+              ],
+              "completeness": "complete",
+              "reason": "原卷第1题及四个选项；答案来自同页答案表",
+              "options": [
+                "access",
+                "entrance",
+                "permission",
+                "passageway"
+              ],
+              "answer": "access",
+              "originalNumber": 1,
+              "rights": "short-quotation",
+              "referenceNote": "公开教学资料所附答案，非官方核验答案",
+              "sourceCharacters": 98,
+              "hasReference": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catti2-2010-05",
+      "year": "2010",
+      "session": "05月",
+      "month": "05",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5582.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2010年05月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2009-11",
+      "year": "2009",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://max.book118.com/html/2024/0902/6112242132010215.shtm",
+          "kind": "reprint",
+          "note": "公开转载整理 · 非官方原卷",
+          "subject": "practical",
+          "evidence": "公开目录明确列出该场次；仅索引，未访问付费正文",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2009-05",
+      "year": "2009",
+      "session": "05月",
+      "month": "05",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5581.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2009年05月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/1966.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "历史结构尚未逐题恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2008-11",
+      "year": "2008",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5580.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2008年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5769.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "历史结构尚未逐题恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2008-05",
+      "year": "2008",
+      "session": "05月",
+      "month": "05",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/1965/3.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "目录明确列出该场次；正文打开超时，未推定篇目数",
+          "checkedAt": "2026-09-18",
+          "access": "index-only"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2007-11",
+      "year": "2007",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5578.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2007年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5766.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "历史结构尚未逐题恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2007-05",
+      "year": "2007",
+      "session": "05月",
+      "month": "05",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/1965/3.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "目录明确列出该场次；正文打开超时，未推定篇目数",
+          "checkedAt": "2026-09-18",
+          "access": "index-only"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2006-11",
+      "year": "2006",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5576.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2006年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2006-05",
+      "year": "2006",
+      "session": "05月",
+      "month": "05",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5575.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2006年05月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/1966.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "历史结构尚未逐题恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2005-11",
+      "year": "2005",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5574.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2005年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2005-05",
+      "year": "2005",
+      "session": "05月",
+      "month": "05",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://www.scribd.com/document/600772000/全国翻译资格考试catti历年二级笔译真题-笔译实务",
+          "kind": "reprint",
+          "note": "公开转载整理 · 非官方原卷",
+          "subject": "practical",
+          "evidence": "公开目录列出2005年5月二级笔译实务；只引用目录，不绕过付费下载",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/1966.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "英译汉 / 汉译英，具体篇目待逐篇恢复",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "历史结构尚未逐题恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2004-11",
+      "year": "2004",
+      "session": "11月",
+      "month": "11",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5573.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2004年11月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/1966.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "历史必译 / 选译结构，未按四篇重排",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "历史结构尚未逐题恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2004-05",
+      "year": "2004",
+      "session": "05月",
+      "month": "05",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5441.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "2004年05月英语二级笔译实务，页面标题明确标注",
+          "checkedAt": "2026-09-18"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/1966.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "历史必译 / 选译结构，未按四篇重排",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "历史结构尚未逐题恢复",
+          "sections": []
+        }
+      },
+      "materials": []
+    },
+    {
+      "id": "catti2-2003-12",
+      "year": "2003",
+      "session": "12月",
+      "month": "12",
+      "exam": "CATTI",
+      "level": 2,
+      "language": "en",
+      "sources": [
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/1965/3.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "practical",
+          "evidence": "目录明确列出该场次；正文打开超时，未推定篇目数",
+          "checkedAt": "2026-09-18",
+          "access": "index-only"
+        },
+        {
+          "url": "https://demo.ltpower.net/web/hydxswyy/news/show-5742.html",
+          "kind": "educational",
+          "note": "公开教学资料整理",
+          "subject": "comprehensive",
+          "evidence": "公开二级笔译综合目录 / 专页明确标注；模拟题未收为真题",
+          "checkedAt": "2026-09-18"
+        }
+      ],
+      "subjects": {
+        "practical": {
+          "status": "indexed",
+          "structure": "历史必译 / 选译结构，未按四篇重排",
+          "sections": []
+        },
+        "comprehensive": {
+          "status": "indexed",
+          "structure": "公开版本包含摘要写作等历史题型；保留原结构，非当前选择题制",
+          "sections": []
+        }
+      },
+      "materials": []
+    }
+  ]
+}

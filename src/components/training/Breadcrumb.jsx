@@ -1,0 +1,3 @@
+import React from 'react';import {Crumbs} from './BackAction';
+const paths={training:[['首页','today'],['训练']],simulation:[['训练','training'],['整套模拟']],practical:[['训练','training'],['翻译实务']],'comprehensive-hub':[['训练','training'],['综合能力']],analysis:[['学习','records'],['学习分析']],phrases:[['学习','records'],['表达库']],questions:[['题库','questions'],['历年真题']],mistakes:[['学习','records'],['错题与积累']],records:[['学习','records'],['学习记录']],settings:[['首页','today'],['设置']]};
+export default function Breadcrumb({path}){return path==='today'?null:<Crumbs items={(paths[path]||[[path]]).map(([label,to])=>({label,to}))}/>}

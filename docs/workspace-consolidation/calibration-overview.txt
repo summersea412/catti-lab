@@ -1,0 +1,66 @@
+[
+  {
+    id: 'calibration_v2_zh_para_01',
+    length: 262,
+    lengthGate: 'PASS',
+    benchmarks: 3,
+    comparison: 'MATCH',
+    human: 'pending'
+  },
+  {
+    id: 'calibration_v2_zh_para_02',
+    length: 260,
+    lengthGate: 'PASS',
+    benchmarks: 3,
+    comparison: 'MATCH',
+    human: 'pending'
+  },
+  {
+    id: 'calibration_v2_zh_exam_01',
+    length: 302,
+    lengthGate: 'PASS',
+    benchmarks: 3,
+    comparison: 'MATCH',
+    human: 'pending'
+  },
+  {
+    id: 'calibration_v2_zh_exam_02',
+    length: 296,
+    lengthGate: 'PASS',
+    benchmarks: 3,
+    comparison: 'MATCH',
+    human: 'pending'
+  },
+  {
+    id: 'calibration_v2_en_para_01',
+    length: 261,
+    lengthGate: 'PASS',
+    benchmarks: 3,
+    comparison: 'MATCH',
+    human: 'pending'
+  },
+  {
+    id: 'calibration_v2_en_para_02',
+    length: 256,
+    lengthGate: 'PASS',
+    benchmarks: 3,
+    comparison: 'MATCH',
+    human: 'pending'
+  },
+  {
+    id: 'calibration_v2_en_exam_01',
+    length: 401,
+    lengthGate: 'PASS',
+    benchmarks: 3,
+    comparison: 'MATCH',
+    human: 'pending'
+  },
+  {
+    id: 'calibration_v2_en_exam_02',
+    length: 400,
+    lengthGate: 'PASS',
+    benchmarks: 3,
+    comparison: 'MATCH',
+    human: 'pending'
+  }
+]

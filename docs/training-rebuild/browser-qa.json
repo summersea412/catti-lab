@@ -1,0 +1,4 @@
+{
+  "status": "FAIL",
+  "error": "Error: {\"exceptionId\":1,\"text\":\"Uncaught\",\"lineNumber\":0,\"columnNumber\":106,\"scriptId\":\"116\",\"stackTrace\":{\"callFrames\":[{\"functionName\":\"\",\"scriptId\":\"116\",\"url\":\"\",\"lineNumber\":0,\"columnNumber\":112},{\"functionName\":\"\",\"scriptId\":\"116\",\"url\":\"\",\"lineNumber\":0,\"columnNumber\":382}]},\"exception\":{\"type\":\"object\",\"subtype\":\"error\",\"className\":\"Error\",\"description\":\"Error: Element not found: [...document.querySelectorAll('button')].find(b=>b.textContent.trim()===\\\"← 返回翻译实务\\\")\\n    at <anonymous>:1:113\\n    at <anonymous>:1:383\",\"objectId\":\"-725948004871543444.2.2\"}}\n    at evaluate (file:///D:/catti-study-assistant-v2/tests/browserHarness.mjs:6:158)\n    at async click (file:///D:/catti-study-assistant-v2/tests/browserHarness.mjs:7:44)\n    at async file:///D:/catti-study-assistant-v2/tests/trainingRebuild.browser.mjs:16:433"
+}

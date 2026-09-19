@@ -1,0 +1,12 @@
+export async function browserHarness(){
+ const version=await(await fetch('http://127.0.0.1:9333/json/version')).json();
+ function connect(url){return new Promise((resolve,reject)=>{const ws=new WebSocket(url),pending=new Map(),events=[];let id=0;ws.onopen=()=>resolve({events,close:()=>ws.close(),send:(method,params={})=>new Promise((res,rej)=>{const n=++id;pending.set(n,{res,rej});ws.send(JSON.stringify({id:n,method,params}))})});ws.onerror=reject;ws.onmessage=e=>{const m=JSON.parse(e.data);if(m.id){const p=pending.get(m.id);pending.delete(m.id);m.error?p?.rej(new Error(m.error.message)):p?.res(m.result)}else events.push(m)}})}
+ const browser=await connect(version.webSocketDebuggerUrl);const {browserContextId}=await browser.send('Target.createBrowserContext');const {targetId}=await browser.send('Target.createTarget',{url:'about:blank',browserContextId});const pages=await(await fetch('http://127.0.0.1:9333/json/list')).json();const page=await connect(pages.find(p=>p.id===targetId).webSocketDebuggerUrl);
+ const wait=(ms=180)=>new Promise(r=>setTimeout(r,ms));
+ const evaluate=async expression=>{const r=await page.send('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true});if(r.exceptionDetails)throw Error(JSON.stringify(r.exceptionDetails));return r.result.value};
+ const click=async expression=>{const rect=await evaluate(`(()=>{const el=${expression};if(!el)throw Error('Element not found: '+${JSON.stringify(expression)});if(el.disabled)throw Error('disabled');el.scrollIntoView({block:'center'});const r=el.getBoundingClientRect();return {x:r.x+r.width/2,y:r.y+r.height/2}})()`);await page.send('Input.dispatchMouseEvent',{type:'mousePressed',button:'left',clickCount:1,...rect});await page.send('Input.dispatchMouseEvent',{type:'mouseReleased',button:'left',clickCount:1,...rect});await wait()};
+ const button=text=>`[...document.querySelectorAll('button')].find(b=>b.textContent.trim()===${JSON.stringify(text)})`;
+ const contains=text=>`[...document.querySelectorAll('button')].find(b=>b.textContent.includes(${JSON.stringify(text)}))`;
+ await page.send('Runtime.enable');await page.send('Page.enable');await page.send('Page.navigate',{url:'http://127.0.0.1:5174/'});for(let i=0;i<80&&!await evaluate("document.querySelector('.sidebar')!==null");i++)await wait();
+ return {page,browser,wait,evaluate,click,button,contains,close:async()=>{page.close();await browser.send('Target.disposeBrowserContext',{browserContextId});browser.close()}};
+}

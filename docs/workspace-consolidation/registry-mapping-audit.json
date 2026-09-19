@@ -1,0 +1,1425 @@
+{
+  "stats": {
+    "total": 39,
+    "practical": 37,
+    "complete": 2,
+    "partial": 35,
+    "recalled": 1,
+    "comprehensive": 2,
+    "withAnswer": 1,
+    "missingAnswer": 1,
+    "missingReference": 33,
+    "trainable": 39,
+    "registryOnlyMaterials": 17,
+    "registryOnlySubjects": 53,
+    "years": 24,
+    "sessions": 45,
+    "subjectIndexes": 65,
+    "practicalPassages": 54,
+    "enZh": 28,
+    "zhEn": 26,
+    "comprehensiveItems": 2,
+    "vocabularyGrammar": 1,
+    "reading": 1,
+    "cloze": 0,
+    "completePracticalSessions": 0,
+    "partialPracticalSessions": 10,
+    "identifiedFourSlots": 8,
+    "trainablePassages": 37,
+    "trainableItems": 39,
+    "withReference": 4,
+    "sourceOnly": 33,
+    "comprehensiveWithAnswer": 1,
+    "candidateOrOnline": 4,
+    "institutional": 47,
+    "educational": 5,
+    "official": 0,
+    "sampleIndexes": 1,
+    "versionDifferences": 13,
+    "registryOnly": 34,
+    "registryOnlySamples": 1,
+    "uiPractical": 37
+  },
+  "repairs": [
+    {
+      "importId": "pdf-2021-06-617636-2021-6-pdf-pdf-en-zh-2",
+      "from": "catti2-2021-06",
+      "to": "catti2-2021-06",
+      "oldNumber": 2,
+      "newNumber": 1,
+      "topic": "劳动力利用不足与经济增长"
+    },
+    {
+      "importId": "pdf-2021-06-617638-2021-6-pdf-pdf-zh-en-2",
+      "from": "catti2-2021-06",
+      "to": "catti2-2021-06",
+      "oldNumber": 2,
+      "newNumber": 1,
+      "topic": "国产肺炎球菌疫苗"
+    },
+    {
+      "importId": "pdf-2021-05-2021-pdf-en-zh-1",
+      "from": "catti2-2021-05",
+      "to": "catti2-2021-06",
+      "oldNumber": 1,
+      "newNumber": 1,
+      "topic": "劳动力利用不足与经济增长"
+    },
+    {
+      "importId": "pdf-2021-05-2021-pdf-en-zh-2",
+      "from": "catti2-2021-05",
+      "to": "catti2-2021-06",
+      "oldNumber": 2,
+      "newNumber": 2,
+      "topic": "隐喻"
+    },
+    {
+      "importId": "pdf-2021-05-2021-pdf-zh-en-1",
+      "from": "catti2-2021-05",
+      "to": "catti2-2021-06",
+      "oldNumber": 1,
+      "newNumber": 1,
+      "topic": "国产肺炎球菌疫苗"
+    },
+    {
+      "importId": "pdf-2021-05-2021-pdf-zh-en-2",
+      "from": "catti2-2021-05",
+      "to": "catti2-2021-06",
+      "oldNumber": 2,
+      "newNumber": 2,
+      "topic": "土地荒漠化"
+    },
+    {
+      "importId": "pdf-2022-05-2022-pdf-zh-en-1",
+      "from": "catti2-2022-05",
+      "to": "catti2-2022-06",
+      "oldNumber": 1,
+      "newNumber": 1,
+      "topic": "城乡融合发展"
+    },
+    {
+      "importId": "pdf-2022-05-2022-pdf-zh-en-2",
+      "from": "catti2-2022-05",
+      "to": "catti2-2022-06",
+      "oldNumber": 2,
+      "newNumber": 2,
+      "topic": "城市生物多样性"
+    },
+    {
+      "importId": "pdf-2022-05-2022-pdf-en-zh-1",
+      "from": "catti2-2022-05",
+      "to": "catti2-2022-06",
+      "oldNumber": 1,
+      "newNumber": 1,
+      "topic": "体育运动中的知识产权保护"
+    },
+    {
+      "importId": "pdf-2022-05-2022-pdf-en-zh-2",
+      "from": "catti2-2022-05",
+      "to": "catti2-2022-06",
+      "oldNumber": 2,
+      "newNumber": 2,
+      "topic": "教科文组织与共同生活"
+    },
+    {
+      "importId": "pdf-2020-05-528333-2020-pdf-pdf-en-zh-1",
+      "from": "catti2-2020-05",
+      "to": "catti2-2020-11",
+      "oldNumber": 1,
+      "newNumber": 1,
+      "topic": "世界经济发展"
+    },
+    {
+      "importId": "pdf-2020-05-528334-2020-pdf-pdf-en-zh-1",
+      "from": "catti2-2020-05",
+      "to": "catti2-2020-11",
+      "oldNumber": 1,
+      "newNumber": 2,
+      "topic": "社交媒体虚假消息"
+    },
+    {
+      "importId": "pdf-2020-05-528888-2020-pdf-pdf-zh-en-1",
+      "from": "catti2-2020-05",
+      "to": "catti2-2020-11",
+      "oldNumber": 1,
+      "newNumber": 1,
+      "topic": "抗击新冠疫情"
+    },
+    {
+      "importId": "pdf-2020-05-528889-2020-pdf-pdf-zh-en-1",
+      "from": "catti2-2020-05",
+      "to": "catti2-2020-11",
+      "oldNumber": 1,
+      "newNumber": 2,
+      "topic": "生猪保价稳供"
+    }
+  ],
+  "slots": [
+    {
+      "year": "2026",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2026-06-en-zh-1",
+      "topic": "德国经济与衰退风险",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2026",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2026-06-en-zh-2",
+      "topic": "误译及其历史影响",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2026",
+      "session": "06",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2026-06-zh-en-1",
+      "topic": "人工智能的数据、算法与算力",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2026",
+      "session": "06",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2026-06-zh-en-2",
+      "topic": "性别平等与妇女发展",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2025",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2025-06-en-zh-1",
+      "topic": "科学奖项与创新激励",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2025",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2025-06-en-zh-2",
+      "topic": "语言相对论",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2025",
+      "session": "06",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2025-06-zh-en-1",
+      "topic": "海南消博会与开放合作",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2025",
+      "session": "06",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2025-06-zh-en-2",
+      "topic": "废旧家电回收",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2024",
+      "session": "10",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2024-10-en-zh-1",
+      "topic": "抵押贷款利率",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2024",
+      "session": "10",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2024-10-en-zh-2",
+      "topic": "体育竞技与竞争",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2024",
+      "session": "10",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2024-10-zh-en-1",
+      "topic": "预防未成年人犯罪",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2024",
+      "session": "10",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2024-10-zh-en-2",
+      "topic": "人与自然",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2023",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2023-11-en-zh-1",
+      "topic": "性别平等",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2023-11-en-zh-1-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2023",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2023-11-en-zh-2",
+      "topic": "气候工程",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2023",
+      "session": "11",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2023-11-zh-en-1",
+      "topic": "大熊猫野化放归",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2023",
+      "session": "11",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2023-11-zh-en-2",
+      "topic": "污染防治与生态文明",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2022",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2022-11-en-zh-1",
+      "topic": "美国失业与劳动力参与",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2022-11-en-zh-1-recovered-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2022",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2022-11-en-zh-2",
+      "topic": "疫情对交通的影响与合作",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2022-11-en-zh-2-recovered-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2022",
+      "session": "11",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2022-11-zh-en-1",
+      "topic": "职业教育",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2022-11-zh-en-1-recovered-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2022",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2022-06-en-zh-1",
+      "topic": "知识产权与体育",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2022-06-en-zh-1-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2022",
+      "session": "06",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2022-05-pdf-pdf-2022-05-2022-pdf-zh-en-1",
+      "topic": "城乡融合发展",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2022-05-pdf-pdf-2022-05-2022-pdf-zh-en-1-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2022",
+      "session": "06",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2022-05-pdf-pdf-2022-05-2022-pdf-zh-en-2",
+      "topic": "城市生物多样性",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2022-05-pdf-pdf-2022-05-2022-pdf-zh-en-2-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2022",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2022-05-pdf-pdf-2022-05-2022-pdf-en-zh-1",
+      "topic": "体育运动中的知识产权保护",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2022-05-pdf-pdf-2022-05-2022-pdf-en-zh-1-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2022",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2022-05-pdf-pdf-2022-05-2022-pdf-en-zh-2",
+      "topic": "教科文组织与共同生活",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2022-05-pdf-pdf-2022-05-2022-pdf-en-zh-2-v1"
+      ],
+      "registryAliases": [
+        "catti2-2022-06-en-zh-2"
+      ]
+    },
+    {
+      "year": "2021",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2021-11-pdf-pdf-2021-11-2021-pdf-en-zh-1",
+      "topic": "2021下半年 实务",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2021-11-pdf-pdf-2021-11-2021-pdf-en-zh-1-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2021",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2021-11-pdf-pdf-2021-11-2021-pdf-en-zh-2",
+      "topic": "2021下半年 实务",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2021-11-pdf-pdf-2021-11-2021-pdf-en-zh-2-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2021",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2021-06-pdf-pdf-2021-06-617636-2021-6-pdf-pdf-en-zh-2",
+      "topic": "劳动力利用不足与经济增长",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2021-06-pdf-pdf-2021-06-617636-2021-6-pdf-pdf-en-zh-2-v1"
+      ],
+      "registryAliases": [
+        "catti2-2021-06-en-zh-1"
+      ]
+    },
+    {
+      "year": "2021",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2021-06-pdf-pdf-2021-06-617637-2021-6-pdf-pdf-en-zh-2",
+      "topic": "2021年6月翻译资格《二级笔译》英译汉话题二：隐喻.pdf",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2021-06-pdf-pdf-2021-06-617637-2021-6-pdf-pdf-en-zh-2-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2021",
+      "session": "06",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2021-06-pdf-pdf-2021-06-617638-2021-6-pdf-pdf-zh-en-2",
+      "topic": "国产肺炎球菌疫苗",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2021-06-pdf-pdf-2021-06-617638-2021-6-pdf-pdf-zh-en-2-v1"
+      ],
+      "registryAliases": [
+        "catti2-2021-06-zh-en-1"
+      ]
+    },
+    {
+      "year": "2021",
+      "session": "06",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2021-06-pdf-pdf-2021-06-617639-2021-6-pdf-pdf-zh-en-2",
+      "topic": "2021年6月翻译资格《二级笔译》汉译英话题二：土地荒漠化.pdf",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2021-06-pdf-pdf-2021-06-617639-2021-6-pdf-pdf-zh-en-2-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2021",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2021-05-pdf-pdf-2021-05-2021-pdf-en-zh-1",
+      "topic": "劳动力利用不足与经济增长",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2021-05-pdf-pdf-2021-05-2021-pdf-en-zh-1-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2021",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2021-05-pdf-pdf-2021-05-2021-pdf-en-zh-2",
+      "topic": "隐喻",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2021-05-pdf-pdf-2021-05-2021-pdf-en-zh-2-v1"
+      ],
+      "registryAliases": [
+        "catti2-2021-06-en-zh-2"
+      ]
+    },
+    {
+      "year": "2021",
+      "session": "06",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2021-05-pdf-pdf-2021-05-2021-pdf-zh-en-1",
+      "topic": "国产肺炎球菌疫苗",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2021-05-pdf-pdf-2021-05-2021-pdf-zh-en-1-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2021",
+      "session": "06",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2021-05-pdf-pdf-2021-05-2021-pdf-zh-en-2",
+      "topic": "土地荒漠化",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2021-05-pdf-pdf-2021-05-2021-pdf-zh-en-2-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2020",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2020-05-pdf-pdf-2020-05-528333-2020-pdf-pdf-en-zh-1",
+      "topic": "世界经济发展",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2020-05-pdf-pdf-2020-05-528333-2020-pdf-pdf-en-zh-1-v1"
+      ],
+      "registryAliases": [
+        "catti2-2020-11-en-zh-1"
+      ]
+    },
+    {
+      "year": "2020",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2020-05-pdf-pdf-2020-05-528334-2020-pdf-pdf-en-zh-1",
+      "topic": "社交媒体虚假消息",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2020-05-pdf-pdf-2020-05-528334-2020-pdf-pdf-en-zh-1-v1"
+      ],
+      "registryAliases": [
+        "catti2-2020-11-en-zh-2"
+      ]
+    },
+    {
+      "year": "2020",
+      "session": "11",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2020-05-pdf-pdf-2020-05-528888-2020-pdf-pdf-zh-en-1",
+      "topic": "抗击新冠疫情",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2020-05-pdf-pdf-2020-05-528888-2020-pdf-pdf-zh-en-1-v1"
+      ],
+      "registryAliases": [
+        "catti2-2020-11-zh-en-1"
+      ]
+    },
+    {
+      "year": "2020",
+      "session": "11",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2020-05-pdf-pdf-2020-05-528889-2020-pdf-pdf-zh-en-1",
+      "topic": "生猪保价稳供",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2020-05-pdf-pdf-2020-05-528889-2020-pdf-pdf-zh-en-1-v1"
+      ],
+      "registryAliases": [
+        "catti2-2020-11-zh-en-2"
+      ]
+    },
+    {
+      "year": "2019",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2019-06-package-en-zh-1",
+      "topic": "2019年6月CATTI二级笔译实务真题：英译汉-新东方网",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2019-06-package-en-zh-1-package-2019-xdf_10955862-html-1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2019",
+      "session": "06",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2019-06-package-zh-en-1",
+      "topic": "2019年6月CATTI二级笔译实务真题：汉译英-新东方网",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2019-06-package-zh-en-1-package-2019-xdf_10955864-html-1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2018",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2018-11-en-zh-1",
+      "topic": "手机依恋与心理安全感",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2018",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2018-11-en-zh-2",
+      "topic": "贸易保护与配额",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": []
+    },
+    {
+      "year": "2018",
+      "session": "11",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2018-11-zh-en-1",
+      "topic": "中医药与中华文明",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2018-11-zh-en-1-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2018",
+      "session": "11",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2018-11-zh-en-2",
+      "topic": "农业合作与粮食安全",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2018-11-zh-en-2-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2018",
+      "session": "11",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2018-11-package-zh-en-1",
+      "topic": "2018年11月CATTI二级笔译实务真题：汉译英-新东方网",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2018-11-package-zh-en-1-package-2018-xdf_10955820-html-1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2018",
+      "session": "11",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2018-11-package-zh-en-2",
+      "topic": "2018年11月CATTI二级笔译实务真题：汉译英-新东方网",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2018-11-package-zh-en-2-package-2018-xdf_10955820-html-2"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2018",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2018-11-package-en-zh-1",
+      "topic": "2018年11月CATTI二级笔译实务真题：英译汉-新东方网",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2018-11-package-en-zh-1-package-2018-xdf_10955822-html-1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2018",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2018-11-pdf-pdf-2018-11-527158-2018-catti-pdf-pdf-en-zh-1",
+      "topic": "2018下半年catti二级笔译英译汉真题.pdf",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2018-11-pdf-pdf-2018-11-527158-2018-catti-pdf-pdf-en-zh-1-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2018",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2018-11-pdf-pdf-2018-11-527159-2018-catti-pdf-pdf-en-zh-1",
+      "topic": "2018下半年翻译考试catti二级笔译真题.pdf",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2018-11-pdf-pdf-2018-11-527159-2018-catti-pdf-pdf-en-zh-1-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2018",
+      "session": "11",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2018-11-pdf-pdf-2018-11-527159-2018-catti-pdf-pdf-zh-en-2",
+      "topic": "2018下半年翻译考试catti二级笔译真题.pdf",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2018-11-pdf-pdf-2018-11-527159-2018-catti-pdf-pdf-zh-en-2-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2018",
+      "session": "11",
+      "direction": "reading",
+      "passageIndex": 1,
+      "id": "catti2-2018-11-pdf-pdf-2018-11-527160-2018-catti-pdf-pdf-mixed-1",
+      "topic": "2018下半年CATTI二级笔译综合阅读真题.pdf",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2018-11-pdf-pdf-2018-11-527160-2018-catti-pdf-pdf-mixed-1-v1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2018",
+      "session": "05",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2018-05-package-en-zh-1",
+      "topic": "2018年5月CATTI二级笔译实务真题：英译汉-新东方网",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2018-05-package-en-zh-1-package-2018-xdf_10955810-html-1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2018",
+      "session": "05",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2018-05-package-zh-en-1",
+      "topic": "2018年5月CATTI二级笔译实务真题：汉译英-新东方网",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2018-05-package-zh-en-1-package-2018-xdf_10955811-html-1"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2018",
+      "session": "05",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2018-05-package-zh-en-2",
+      "topic": "2018年5月CATTI二级笔译实务真题：汉译英-新东方网",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2018-05-package-zh-en-2-package-2018-xdf_10955811-html-2"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2017",
+      "session": "05",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2017-05-package-zh-en-2",
+      "topic": "2017年5月CATTI二级笔译中译英真题解析-新东方网",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2017-05-package-zh-en-2-package-2017-xdf_10705120-html-2"
+      ],
+      "registryAliases": []
+    },
+    {
+      "year": "2010",
+      "session": "11",
+      "direction": "vocabulary-grammar",
+      "passageIndex": 1,
+      "id": "catti2-2010-11-vocabulary-grammar-1",
+      "topic": "词汇选择 · 互联网访问",
+      "trainable": true,
+      "sourceVariantIds": [
+        "catti2-2010-11-vocabulary-grammar-1-v1"
+      ],
+      "registryAliases": []
+    }
+  ],
+  "pending": [
+    {
+      "year": "2026",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2026-06-en-zh-1",
+      "topic": "德国经济与衰退风险",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    },
+    {
+      "year": "2026",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2026-06-en-zh-2",
+      "topic": "误译及其历史影响",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    },
+    {
+      "year": "2026",
+      "session": "06",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2026-06-zh-en-1",
+      "topic": "人工智能的数据、算法与算力",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    },
+    {
+      "year": "2026",
+      "session": "06",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2026-06-zh-en-2",
+      "topic": "性别平等与妇女发展",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    },
+    {
+      "year": "2025",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2025-06-en-zh-1",
+      "topic": "科学奖项与创新激励",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    },
+    {
+      "year": "2025",
+      "session": "06",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2025-06-en-zh-2",
+      "topic": "语言相对论",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    },
+    {
+      "year": "2025",
+      "session": "06",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2025-06-zh-en-1",
+      "topic": "海南消博会与开放合作",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    },
+    {
+      "year": "2025",
+      "session": "06",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2025-06-zh-en-2",
+      "topic": "废旧家电回收",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    },
+    {
+      "year": "2024",
+      "session": "10",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2024-10-en-zh-1",
+      "topic": "抵押贷款利率",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    },
+    {
+      "year": "2024",
+      "session": "10",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2024-10-en-zh-2",
+      "topic": "体育竞技与竞争",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    },
+    {
+      "year": "2024",
+      "session": "10",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2024-10-zh-en-1",
+      "topic": "预防未成年人犯罪",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    },
+    {
+      "year": "2024",
+      "session": "10",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2024-10-zh-en-2",
+      "topic": "人与自然",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    },
+    {
+      "year": "2023",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2023-11-en-zh-2",
+      "topic": "气候工程",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    },
+    {
+      "year": "2023",
+      "session": "11",
+      "direction": "zh-en",
+      "passageIndex": 1,
+      "id": "catti2-2023-11-zh-en-1",
+      "topic": "大熊猫野化放归",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    },
+    {
+      "year": "2023",
+      "session": "11",
+      "direction": "zh-en",
+      "passageIndex": 2,
+      "id": "catti2-2023-11-zh-en-2",
+      "topic": "污染防治与生态文明",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    },
+    {
+      "year": "2018",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 1,
+      "id": "catti2-2018-11-en-zh-1",
+      "topic": "手机依恋与心理安全感",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [
+        {
+          "id": "catti2-2018-11-package-en-zh-1",
+          "topic": "2018年11月CATTI二级笔译实务真题：英译汉-新东方网"
+        },
+        {
+          "id": "catti2-2018-11-pdf-pdf-2018-11-527158-2018-catti-pdf-pdf-en-zh-1",
+          "topic": "2018下半年catti二级笔译英译汉真题.pdf"
+        },
+        {
+          "id": "catti2-2018-11-pdf-pdf-2018-11-527159-2018-catti-pdf-pdf-en-zh-1",
+          "topic": "2018下半年翻译考试catti二级笔译真题.pdf"
+        }
+      ],
+      "decision": "同场同方向编号存在正文，但主题不匹配；保留归属差异，不把异题硬接为该篇正文。"
+    },
+    {
+      "year": "2018",
+      "session": "11",
+      "direction": "en-zh",
+      "passageIndex": 2,
+      "id": "catti2-2018-11-en-zh-2",
+      "topic": "贸易保护与配额",
+      "trainable": false,
+      "sourceVariantIds": [],
+      "registryAliases": [],
+      "sameSlotBodies": [],
+      "decision": "逐场逐方向检查：现有 HTML/PDF 恢复材料未发现该题正文，保留待补。"
+    }
+  ],
+  "emptySubjects": [
+    {
+      "year": "2026",
+      "session": "06",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2025",
+      "session": "06",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2025",
+      "session": "06",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2024",
+      "session": "10",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2022",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2021",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2020",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2019",
+      "session": "11",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2019",
+      "session": "11",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2019",
+      "session": "06",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2018",
+      "session": "05",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2017",
+      "session": "11",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2017",
+      "session": "11",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2017",
+      "session": "05",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2016",
+      "session": "11",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2016",
+      "session": "11",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2016",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2016",
+      "session": "05",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2015",
+      "session": "11",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2015",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2014",
+      "session": "11",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2014",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2013",
+      "session": "11",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2013",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2012",
+      "session": "11",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2012",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2011",
+      "session": "11",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2011",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2011",
+      "session": "05",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2010",
+      "session": "sample",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2010",
+      "session": "11",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2010",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2009",
+      "session": "11",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2009",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2009",
+      "session": "05",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2008",
+      "session": "11",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2008",
+      "session": "11",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2008",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2007",
+      "session": "11",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2007",
+      "session": "11",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2007",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2006",
+      "session": "11",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2006",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2006",
+      "session": "05",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2005",
+      "session": "11",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2005",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2005",
+      "session": "05",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2004",
+      "session": "11",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2004",
+      "session": "11",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2004",
+      "session": "05",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2004",
+      "session": "05",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2003",
+      "session": "12",
+      "subject": "practical",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    },
+    {
+      "year": "2003",
+      "session": "12",
+      "subject": "comprehensive",
+      "status": "现有恢复数据无可训练正文；保留索引"
+    }
+  ]
+}

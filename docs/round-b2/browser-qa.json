@@ -1,0 +1,13 @@
+{
+  "combinedFiltering": "PASS",
+  "clearFilters": "PASS",
+  "variants": "PASS",
+  "practiceSnapshots": "PASS",
+  "comprehensivePractice": "PASS",
+  "mobileOverflow": "PASS",
+  "persistence": "PASS",
+  "runtimeErrors": 0,
+  "recoverySchema": "PASS",
+  "recoveredTrainablePractical": 5,
+  "completeReferences": 4
+}

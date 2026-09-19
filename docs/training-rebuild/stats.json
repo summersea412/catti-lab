@@ -1,0 +1,497 @@
+{
+  "sentence": [
+    {
+      "id": "rebuild_sentence_zh_en_001",
+      "topic": "财政与问责",
+      "direction": "zh-en",
+      "length": 89,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 12,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_sentence_zh_en_002",
+      "topic": "文化与语言",
+      "direction": "zh-en",
+      "length": 96,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 12,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_sentence_zh_en_003",
+      "topic": "科学与证据",
+      "direction": "zh-en",
+      "length": 87,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 12,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_sentence_zh_en_004",
+      "topic": "国际投资",
+      "direction": "zh-en",
+      "length": 92,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 12,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_sentence_zh_en_005",
+      "topic": "历史与档案",
+      "direction": "zh-en",
+      "length": 97,
+      "difficultyTier": "catti-advanced",
+      "estimatedMinutes": 12,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_sentence_zh_en_006",
+      "topic": "基础设施",
+      "direction": "zh-en",
+      "length": 91,
+      "difficultyTier": "catti-advanced",
+      "estimatedMinutes": 12,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_sentence_en_zh_001",
+      "topic": "金融监管",
+      "direction": "en-zh",
+      "length": 61,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 12,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_sentence_en_zh_002",
+      "topic": "法庭与证据",
+      "direction": "en-zh",
+      "length": 63,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 12,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_sentence_en_zh_003",
+      "topic": "科研评价",
+      "direction": "en-zh",
+      "length": 65,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 12,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_sentence_en_zh_004",
+      "topic": "商业竞争",
+      "direction": "en-zh",
+      "length": 63,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 12,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_sentence_en_zh_005",
+      "topic": "国际组织",
+      "direction": "en-zh",
+      "length": 64,
+      "difficultyTier": "catti-advanced",
+      "estimatedMinutes": 12,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_sentence_en_zh_006",
+      "topic": "科学史",
+      "direction": "en-zh",
+      "length": 62,
+      "difficultyTier": "catti-advanced",
+      "estimatedMinutes": 12,
+      "contentVersion": 1
+    }
+  ],
+  "sentenceDifficulty": {
+    "foundation": 0,
+    "catti-standard": 8,
+    "catti-advanced": 4
+  },
+  "paragraph": [
+    {
+      "id": "rebuild_paragraph_zh_en_001",
+      "topic": "教育资格互认",
+      "direction": "zh-en",
+      "length": 299,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 32,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_paragraph_zh_en_002",
+      "topic": "生态修复与时间",
+      "direction": "zh-en",
+      "length": 308,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 32,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_paragraph_zh_en_003",
+      "topic": "出版与公共知识",
+      "direction": "zh-en",
+      "length": 297,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 32,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_paragraph_zh_en_004",
+      "topic": "城市夜间劳动",
+      "direction": "zh-en",
+      "length": 296,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 32,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_paragraph_en_zh_001",
+      "topic": "农业技术与适应",
+      "direction": "en-zh",
+      "length": 273,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 32,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_paragraph_en_zh_002",
+      "topic": "外交与翻译",
+      "direction": "en-zh",
+      "length": 271,
+      "difficultyTier": "catti-advanced",
+      "estimatedMinutes": 32,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_paragraph_en_zh_003",
+      "topic": "博物馆与数字访问",
+      "direction": "en-zh",
+      "length": 270,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 32,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_paragraph_en_zh_004",
+      "topic": "商业统计与生产率",
+      "direction": "en-zh",
+      "length": 285,
+      "difficultyTier": "catti-advanced",
+      "estimatedMinutes": 32,
+      "contentVersion": 1
+    }
+  ],
+  "paragraphDifficulty": {
+    "foundation": 0,
+    "catti-standard": 6,
+    "catti-advanced": 2
+  },
+  "exam": [
+    {
+      "id": "exam_reviewed_zh_en_001",
+      "topic": "城市防洪",
+      "direction": "zh-en",
+      "length": 287,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "exam_reviewed_zh_en_002",
+      "topic": "科研评价",
+      "direction": "zh-en",
+      "length": 289,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "exam_reviewed_zh_en_003",
+      "topic": "文化与旅游",
+      "direction": "zh-en",
+      "length": 295,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "exam_reviewed_zh_en_004",
+      "topic": "供应链",
+      "direction": "zh-en",
+      "length": 300,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "exam_reviewed_en_zh_001",
+      "topic": "公共能源投资",
+      "direction": "en-zh",
+      "length": 451,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "exam_reviewed_en_zh_002",
+      "topic": "人工智能与采购",
+      "direction": "en-zh",
+      "length": 444,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "exam_reviewed_en_zh_003",
+      "topic": "养老金沟通",
+      "direction": "en-zh",
+      "length": 454,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "exam_reviewed_en_zh_004",
+      "topic": "农业育种与种子保存",
+      "direction": "en-zh",
+      "length": 451,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_exam_passage_zh_en_001",
+      "topic": "博物馆藏品归还",
+      "direction": "zh-en",
+      "length": 295,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_exam_passage_zh_en_002",
+      "topic": "港口与区域贸易",
+      "direction": "zh-en",
+      "length": 312,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_exam_passage_zh_en_003",
+      "topic": "古籍整理与证据",
+      "direction": "zh-en",
+      "length": 306,
+      "difficultyTier": "catti-advanced",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_exam_passage_zh_en_004",
+      "topic": "农业保险与风险",
+      "direction": "zh-en",
+      "length": 303,
+      "difficultyTier": "catti-advanced",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_exam_passage_zh_en_005",
+      "topic": "海洋科研合作",
+      "direction": "zh-en",
+      "length": 317,
+      "difficultyTier": "catti-advanced",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_exam_passage_zh_en_006",
+      "topic": "通货膨胀与家庭负担",
+      "direction": "zh-en",
+      "length": 310,
+      "difficultyTier": "catti-advanced",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_exam_passage_en_zh_001",
+      "topic": "商业新闻与订阅",
+      "direction": "en-zh",
+      "length": 445,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_exam_passage_en_zh_002",
+      "topic": "药物试验与代表性",
+      "direction": "en-zh",
+      "length": 448,
+      "difficultyTier": "catti-standard",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_exam_passage_en_zh_003",
+      "topic": "历史地图与边界",
+      "direction": "en-zh",
+      "length": 443,
+      "difficultyTier": "catti-advanced",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_exam_passage_en_zh_004",
+      "topic": "货币联盟与调整",
+      "direction": "en-zh",
+      "length": 439,
+      "difficultyTier": "catti-advanced",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_exam_passage_en_zh_005",
+      "topic": "科学收藏与命名",
+      "direction": "en-zh",
+      "length": 459,
+      "difficultyTier": "catti-advanced",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    },
+    {
+      "id": "rebuild_exam_passage_en_zh_006",
+      "topic": "保险与气候迁移",
+      "direction": "en-zh",
+      "length": 442,
+      "difficultyTier": "catti-advanced",
+      "estimatedMinutes": 45,
+      "contentVersion": 1
+    }
+  ],
+  "examDifficulty": {
+    "foundation": 0,
+    "catti-standard": 12,
+    "catti-advanced": 8
+  },
+  "oldReplacementCount": 64,
+  "oldUpgradeCount": 0,
+  "newAuthoredCount": 32,
+  "newlyDeprecatedCount": 64,
+  "retainedExamCount": 8,
+  "sets": [
+    {
+      "id": "full_practice_reviewed_001",
+      "valid": true,
+      "errors": [],
+      "totals": {
+        "zh-en": 576,
+        "en-zh": 895
+      },
+      "title": "CATTI Lab 整套模拟 1 · 城市、科学与公共投资",
+      "tier": "catti-standard"
+    },
+    {
+      "id": "full_practice_reviewed_002",
+      "valid": true,
+      "errors": [],
+      "totals": {
+        "zh-en": 595,
+        "en-zh": 905
+      },
+      "title": "CATTI Lab 整套模拟 2 · 文化、供应链与长期保障",
+      "tier": "catti-standard"
+    },
+    {
+      "id": "full_practice_rebuild_003",
+      "valid": true,
+      "errors": [],
+      "totals": {
+        "zh-en": 607,
+        "en-zh": 893
+      },
+      "title": "CATTI Lab 整套模拟 3 · 藏品、贸易与公共证据",
+      "tier": "catti-standard"
+    },
+    {
+      "id": "full_practice_rebuild_004",
+      "valid": true,
+      "errors": [],
+      "totals": {
+        "zh-en": 609,
+        "en-zh": 882
+      },
+      "title": "CATTI Lab 整套模拟 4 · 文献、风险与制度边界",
+      "tier": "catti-advanced"
+    },
+    {
+      "id": "full_practice_rebuild_005",
+      "valid": true,
+      "errors": [],
+      "totals": {
+        "zh-en": 627,
+        "en-zh": 901
+      },
+      "title": "CATTI Lab 整套模拟 5 · 科研、物价与风险分配",
+      "tier": "catti-advanced"
+    }
+  ],
+  "comprehensive": [
+    {
+      "id": "comp_sim_001",
+      "title": "综合能力整套模拟 1 · 公共政策与证据",
+      "minutes": 120,
+      "model": "CATTI Lab 当前训练模型：10词汇、10语法、5阅读题、10完形空；非官方题量复刻。",
+      "counts": {
+        "vocabulary": 10,
+        "grammar": 10,
+        "reading": 5,
+        "cloze": 10
+      }
+    },
+    {
+      "id": "comp_sim_002",
+      "title": "综合能力整套模拟 2 · 艺术、科学与判断",
+      "minutes": 120,
+      "model": "CATTI Lab 当前训练模型：10词汇、10语法、5阅读题、10完形空；非官方题量复刻。",
+      "counts": {
+        "vocabulary": 10,
+        "grammar": 10,
+        "reading": 5,
+        "cloze": 10
+      }
+    },
+    {
+      "id": "comp_sim_003",
+      "title": "综合能力整套模拟 3 · 制度、交通与文化",
+      "minutes": 120,
+      "model": "CATTI Lab 当前训练模型：10词汇、10语法、5阅读题、10完形空；非官方题量复刻。",
+      "counts": {
+        "vocabulary": 10,
+        "grammar": 10,
+        "reading": 5,
+        "cloze": 10
+      }
+    }
+  ],
+  "pastPaper": {
+    "total": 39,
+    "practical": 37,
+    "complete": 2,
+    "partial": 35,
+    "recalled": 1,
+    "comprehensive": 2,
+    "withAnswer": 1,
+    "missingAnswer": 1,
+    "missingReference": 33,
+    "trainable": 39,
+    "registryOnlyMaterials": 25,
+    "registryOnlySubjects": 51
+  }
+}

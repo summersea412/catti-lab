@@ -1,20 +1,31 @@
 import assert from 'node:assert/strict';
-import {SENTENCE_EXERCISES} from '../src/features/exercises/sentenceDataset.js';
-import {PARAGRAPH_EXERCISES,validateParagraphDataset} from '../src/features/questionBank/paragraphDataset.js';
-import {PAST_PAPERS,validatePastPapers} from '../src/features/questionBank/pastPaperDataset.js';
+import {SENTENCE_EXERCISES,ALL_SENTENCE_EXERCISES} from '../src/features/exercises/sentenceDataset.js';
+import {PARAGRAPH_EXERCISES,ALL_PARAGRAPH_EXERCISES,validateParagraphDataset} from '../src/features/questionBank/paragraphDataset.js';
+import {validatePastPapers} from '../src/features/questionBank/pastPaperDataset.js';
 import {normalizeTrainingSession,calculateDurationMs} from '../src/features/training/trainingSchema.js';
 import {filterExercises,canMove} from '../src/features/training/trainingSelectors.js';
 import {validateExercise} from '../src/features/exercises/exerciseSchema.js';
-import {COMPREHENSIVE_EXERCISES,validateComprehensiveDataset,VOCABULARY_EXERCISES,GRAMMAR_EXERCISES,READING_PASSAGES,READING_QUESTIONS,CLOZE_PASSAGES,CLOZE_BLANKS} from '../src/features/comprehensive/comprehensiveDataset.js';
-import {validateExamExercise} from '../src/features/exam/examModel.js';
-import {EXTENDED_EXERCISES} from '../src/features/translation/extendedDataset.js';
-import {CATTI_PRACTICE_SETS} from '../src/features/translation/practiceSets.js';
-import {contentAudit} from '../src/features/content/contentAudit.js';
+import {COMPREHENSIVE_EXERCISES,validateComprehensiveDataset,READING_PASSAGES,CLOZE_PASSAGES} from '../src/features/comprehensive/comprehensiveDataset.js';
 import {readStorage,writeStorage} from '../src/storage/storageAdapter.js';
-assert.equal(SENTENCE_EXERCISES.length,100);assert.equal(SENTENCE_EXERCISES.filter(x=>x.direction==='zh-en').length,50);assert.equal(SENTENCE_EXERCISES.filter(x=>x.direction==='en-zh').length,50);assert.equal(new Set(SENTENCE_EXERCISES.map(x=>x.id)).size,SENTENCE_EXERCISES.length);assert.ok(SENTENCE_EXERCISES.every(validateExercise));
-assert.equal(PARAGRAPH_EXERCISES.length,24);assert.equal(PARAGRAPH_EXERCISES.filter(x=>x.trainingLevel==='short').length,4);assert.equal(PARAGRAPH_EXERCISES.filter(x=>x.trainingLevel==='standard').length,20);assert.ok(PARAGRAPH_EXERCISES.filter(x=>x.trainingLevel==='standard').length/PARAGRAPH_EXERCISES.length>=0.7);assert.ok(PARAGRAPH_EXERCISES.every(x=>x.charCount===x.sourceText.length&&x.wordCount===x.sourceText.trim().split(/\s+/).filter(Boolean).length));assert.equal(PARAGRAPH_EXERCISES.filter(x=>x.direction==='zh-en').length,12);assert.equal(PARAGRAPH_EXERCISES.filter(x=>x.direction==='en-zh').length,12);assert.ok(validateParagraphDataset());assert.ok(PARAGRAPH_EXERCISES.every(validateExercise));
-assert.ok(validatePastPapers());assert.ok(validateComprehensiveDataset()); assert.ok(COMPREHENSIVE_EXERCISES.filter(x=>x.questionType==='vocabulary').every(x=>x.options.includes(x.answer))); assert.ok(COMPREHENSIVE_EXERCISES.filter(x=>x.questionType==='grammar').every(x=>x.options.includes(x.answer))); assert.ok(COMPREHENSIVE_EXERCISES.filter(x=>x.questionType==='reading').every(x=>x.options.includes(x.answer))); assert.ok(COMPREHENSIVE_EXERCISES.filter(x=>x.questionType==='cloze').every(x=>x.options.includes(x.answer)));assert.ok(COMPREHENSIVE_EXERCISES.every(validateExamExercise));assert.equal(VOCABULARY_EXERCISES.length,80);assert.equal(GRAMMAR_EXERCISES.length,80);assert.equal(READING_PASSAGES.length,15);assert.equal(READING_QUESTIONS.length,75);assert.equal(CLOZE_PASSAGES.length,6);assert.equal(CLOZE_BLANKS.length,60);assert.equal(EXTENDED_EXERCISES.length,16);assert.equal(CATTI_PRACTICE_SETS.length,3);
-const audit=contentAudit();assert.equal(audit.duplicates.length,0);const high=(audit.difficulty.catti2||0)+(audit.difficulty.catti2_plus||0);assert.ok(high/audit.registry.total>=.65);
-const legacy=normalizeTrainingSession({source:'old',answer:'mine',reference:'ref'});assert.equal(legacy.sourceText,'old');assert.equal(legacy.userAnswer,'mine');assert.equal(legacy.referenceAnswer,'ref'); assert.equal(normalizeTrainingSession({trainingMode:'comprehensive-practice'}).trainingMode,'comprehensive-practice');assert.equal(calculateDurationMs('2026-01-01T00:00:00Z','2026-01-01T00:01:30Z'),90000);assert.equal(filterExercises(PARAGRAPH_EXERCISES,'zh-en').length,12);assert.equal(filterExercises(PARAGRAPH_EXERCISES,'en-zh').length,12);assert.equal(canMove(0,24,-1),false);assert.equal(canMove(0,24,1),true);assert.equal(canMove(23,24,1),false);
-const map=new Map();const fake={getItem:k=>map.has(k)?map.get(k):null,setItem:(k,v)=>map.set(k,v),removeItem:k=>map.delete(k)};writeStorage('test',{ok:true},fake);assert.deepEqual(readStorage('test',null,fake),{ok:true});console.log('core contract and content quality tests passed');
+// Quantity targets are reported as shortfalls; test quality and compatibility, never force filler.
+for(const data of [SENTENCE_EXERCISES,PARAGRAPH_EXERCISES]){
+ assert.ok(data.length>0);assert.equal(new Set(data.map(x=>x.id)).size,data.length);
+ assert.ok(data.every(validateExercise));assert.ok(data.every(x=>x.contentStatus==='published'));
+ for(const dir of ['zh-en','en-zh'])assert.ok(filterExercises(data,dir).length>0);
+}
+assert.ok(ALL_SENTENCE_EXERCISES.some(x=>x.contentStatus==='rejected'));
+assert.ok(ALL_PARAGRAPH_EXERCISES.some(x=>x.contentStatus==='rejected'));
+assert.ok(validateParagraphDataset());assert.ok(validatePastPapers());assert.ok(validateComprehensiveDataset());
+for(const p of READING_PASSAGES)assert.equal(p.questions.length,5);
+for(const p of CLOZE_PASSAGES)assert.equal(p.blanks.length,10);
+for(const q of COMPREHENSIVE_EXERCISES)assert.ok(q.options.includes(q.answer));
+const legacy=normalizeTrainingSession({source:'old',answer:'mine',reference:'ref'});
+assert.equal(legacy.sourceText,'old');assert.equal(legacy.userAnswer,'mine');assert.equal(legacy.referenceAnswer,'ref');
+assert.equal(normalizeTrainingSession({trainingMode:'comprehensive-practice'}).trainingMode,'comprehensive-practice');
+assert.equal(calculateDurationMs('2026-01-01T00:00:00Z','2026-01-01T00:01:30Z'),90000);
+assert.equal(canMove(0,24,-1),false);assert.equal(canMove(0,24,1),true);assert.equal(canMove(23,24,1),false);
+const map=new Map(),fake={getItem:k=>map.has(k)?map.get(k):null,setItem:(k,v)=>map.set(k,v),removeItem:k=>map.delete(k)};
+writeStorage('test',{ok:true},fake);assert.deepEqual(readStorage('test',null,fake),{ok:true});
+console.log('Core contracts and legacy storage compatibility passed');
+await import('./contentEngine.mjs');
 

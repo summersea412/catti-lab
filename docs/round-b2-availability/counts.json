@@ -1,0 +1,14 @@
+{
+  "total": 8,
+  "practical": 7,
+  "complete": 2,
+  "partial": 5,
+  "recalled": 1,
+  "comprehensive": 1,
+  "withAnswer": 1,
+  "missingAnswer": 0,
+  "missingReference": 3,
+  "trainable": 8,
+  "registryOnlyMaterials": 25,
+  "registryOnlySubjects": 57
+}

@@ -1,0 +1,294 @@
+
+> catti-study-assistant@1.0.0 content:check
+> node scripts-content-check.mjs
+
+{
+  "targetAssessment": {
+    "vocabulary": {
+      "target": 80,
+      "published": 30,
+      "shortfall": 50,
+      "met": false
+    },
+    "grammar": {
+      "target": 80,
+      "published": 30,
+      "shortfall": 50,
+      "met": false
+    },
+    "readingPassages": {
+      "target": 15,
+      "published": 3,
+      "shortfall": 12,
+      "met": false
+    },
+    "clozePassages": {
+      "target": 6,
+      "published": 3,
+      "shortfall": 3,
+      "met": false
+    },
+    "sentence": {
+      "target": 100,
+      "published": 12,
+      "shortfall": 88,
+      "met": false
+    },
+    "paragraph": {
+      "target": 60,
+      "published": 8,
+      "shortfall": 52,
+      "met": false
+    },
+    "examPassages": {
+      "target": 20,
+      "published": 20,
+      "shortfall": 0,
+      "met": true
+    },
+    "fullPracticeSets": {
+      "target": 2,
+      "published": 5,
+      "shortfall": 0,
+      "met": true
+    }
+  },
+  "allQuantityTargetsMet": false,
+  "stageIssueCountsAllCandidates": {
+    "difficulty": 969,
+    "length": 185,
+    "reference": 80,
+    "answer": 81,
+    "schema": 16
+  },
+  "totalCandidates": 503,
+  "publishedContentObjects": 106,
+  "counts": {
+    "vocabulary": 30,
+    "grammar": 30,
+    "readingPassages": 3,
+    "readingQuestions": 15,
+    "clozePassages": 3,
+    "clozeBlanks": 30,
+    "sentence": {
+      "zh-en": 6,
+      "en-zh": 6
+    },
+    "paragraph": {
+      "zh-en": 4,
+      "en-zh": 4
+    },
+    "examPassages": {
+      "zh-en": 10,
+      "en-zh": 10
+    },
+    "fullPracticeSets": 5
+  },
+  "difficultyDistribution": {
+    "catti-standard": 89,
+    "catti-advanced": 14,
+    "foundation": 3
+  },
+  "objectiveItemDifficulty": {
+    "catti-standard": 102,
+    "foundation": 3
+  },
+  "contentStatusDistribution": {
+    "rejected": 397,
+    "published": 106
+  },
+  "rejected": {
+    "count": 397,
+    "details": "docs/round-b/content-qa.json"
+  },
+  "unpublished": {
+    "count": 397,
+    "details": "docs/round-b/content-qa.json"
+  },
+  "publishedFailures": [],
+  "duplicateDetection": {
+    "published": [],
+    "allCandidatePairs": 7134,
+    "details": "docs/round-b/content-qa.json"
+  },
+  "fullPractice": [
+    {
+      "id": "full_practice_reviewed_001",
+      "valid": true,
+      "errors": [],
+      "totals": {
+        "zh-en": 576,
+        "en-zh": 895
+      }
+    },
+    {
+      "id": "full_practice_reviewed_002",
+      "valid": true,
+      "errors": [],
+      "totals": {
+        "zh-en": 595,
+        "en-zh": 905
+      }
+    },
+    {
+      "id": "full_practice_rebuild_003",
+      "valid": true,
+      "errors": [],
+      "totals": {
+        "zh-en": 607,
+        "en-zh": 893
+      }
+    },
+    {
+      "id": "full_practice_rebuild_004",
+      "valid": true,
+      "errors": [],
+      "totals": {
+        "zh-en": 609,
+        "en-zh": 882
+      }
+    },
+    {
+      "id": "full_practice_rebuild_005",
+      "valid": true,
+      "errors": [],
+      "totals": {
+        "zh-en": 627,
+        "en-zh": 901
+      }
+    }
+  ],
+  "examLengths": [
+    {
+      "id": "exam_reviewed_zh_en_001",
+      "direction": "zh-en",
+      "length": 287
+    },
+    {
+      "id": "exam_reviewed_zh_en_002",
+      "direction": "zh-en",
+      "length": 289
+    },
+    {
+      "id": "exam_reviewed_zh_en_003",
+      "direction": "zh-en",
+      "length": 295
+    },
+    {
+      "id": "exam_reviewed_zh_en_004",
+      "direction": "zh-en",
+      "length": 300
+    },
+    {
+      "id": "exam_reviewed_en_zh_001",
+      "direction": "en-zh",
+      "length": 451
+    },
+    {
+      "id": "exam_reviewed_en_zh_002",
+      "direction": "en-zh",
+      "length": 444
+    },
+    {
+      "id": "exam_reviewed_en_zh_003",
+      "direction": "en-zh",
+      "length": 454
+    },
+    {
+      "id": "exam_reviewed_en_zh_004",
+      "direction": "en-zh",
+      "length": 451
+    },
+    {
+      "id": "rebuild_exam_passage_zh_en_001",
+      "direction": "zh-en",
+      "length": 295
+    },
+    {
+      "id": "rebuild_exam_passage_zh_en_002",
+      "direction": "zh-en",
+      "length": 312
+    },
+    {
+      "id": "rebuild_exam_passage_zh_en_003",
+      "direction": "zh-en",
+      "length": 306
+    },
+    {
+      "id": "rebuild_exam_passage_zh_en_004",
+      "direction": "zh-en",
+      "length": 303
+    },
+    {
+      "id": "rebuild_exam_passage_zh_en_005",
+      "direction": "zh-en",
+      "length": 317
+    },
+    {
+      "id": "rebuild_exam_passage_zh_en_006",
+      "direction": "zh-en",
+      "length": 310
+    },
+    {
+      "id": "rebuild_exam_passage_en_zh_001",
+      "direction": "en-zh",
+      "length": 445
+    },
+    {
+      "id": "rebuild_exam_passage_en_zh_002",
+      "direction": "en-zh",
+      "length": 448
+    },
+    {
+      "id": "rebuild_exam_passage_en_zh_003",
+      "direction": "en-zh",
+      "length": 443
+    },
+    {
+      "id": "rebuild_exam_passage_en_zh_004",
+      "direction": "en-zh",
+      "length": 439
+    },
+    {
+      "id": "rebuild_exam_passage_en_zh_005",
+      "direction": "en-zh",
+      "length": 459
+    },
+    {
+      "id": "rebuild_exam_passage_en_zh_006",
+      "direction": "en-zh",
+      "length": 442
+    }
+  ],
+  "readingMetrics": [
+    {
+      "id": "roundb_reading_001",
+      "words": 329,
+      "averageSentenceWords": 16.4,
+      "complexSentenceHeuristic": 0.55,
+      "inferenceQuestionRatio": 0.6,
+      "lexicalComplexity": "Editorial evidence; not an empirically calibrated vocabulary score",
+      "directCopyQuestionRatio": 0
+    },
+    {
+      "id": "rebuild_sim_reading_2",
+      "words": 336,
+      "averageSentenceWords": 15.3,
+      "complexSentenceHeuristic": 0.4090909090909091,
+      "inferenceQuestionRatio": 0.6,
+      "lexicalComplexity": "Editorial evidence; not an empirically calibrated vocabulary score",
+      "directCopyQuestionRatio": 0
+    },
+    {
+      "id": "rebuild_sim_reading_3",
+      "words": 349,
+      "averageSentenceWords": 15.2,
+      "complexSentenceHeuristic": 0.4782608695652174,
+      "inferenceQuestionRatio": 0.6,
+      "lexicalComplexity": "Editorial evidence; not an empirically calibrated vocabulary score",
+      "directCopyQuestionRatio": 0
+    }
+  ],
+  "valid": true
+}
+Full per-item report: docs/round-b/content-qa.json; semantic review is documented separately, not inferred from length.

@@ -1,0 +1,71 @@
+{
+  "overview": [
+    {
+      "id": "calibration_v2_zh_para_01",
+      "kind": "paragraph",
+      "direction": "zh-en",
+      "topic": "海上风电与渔业协商",
+      "length": 262,
+      "lengthGate": "PASS"
+    },
+    {
+      "id": "calibration_v2_zh_para_02",
+      "kind": "paragraph",
+      "direction": "zh-en",
+      "topic": "博物馆藏品的归还与知识共享",
+      "length": 260,
+      "lengthGate": "PASS"
+    },
+    {
+      "id": "calibration_v2_zh_exam_01",
+      "kind": "exam-passage",
+      "direction": "zh-en",
+      "topic": "城市热岛与公共健康预算",
+      "length": 302,
+      "lengthGate": "PASS"
+    },
+    {
+      "id": "calibration_v2_zh_exam_02",
+      "kind": "exam-passage",
+      "direction": "zh-en",
+      "topic": "跨境数据与科研合作",
+      "length": 296,
+      "lengthGate": "PASS"
+    },
+    {
+      "id": "calibration_v2_en_para_01",
+      "kind": "paragraph",
+      "direction": "en-zh",
+      "topic": "零工平台与社会保险",
+      "length": 261,
+      "lengthGate": "PASS"
+    },
+    {
+      "id": "calibration_v2_en_para_02",
+      "kind": "paragraph",
+      "direction": "en-zh",
+      "topic": "火星样本返回与行星保护",
+      "length": 256,
+      "lengthGate": "PASS"
+    },
+    {
+      "id": "calibration_v2_en_exam_01",
+      "kind": "exam-passage",
+      "direction": "en-zh",
+      "topic": "粮食价格与储备政策",
+      "length": 401,
+      "lengthGate": "PASS"
+    },
+    {
+      "id": "calibration_v2_en_exam_02",
+      "kind": "exam-passage",
+      "direction": "en-zh",
+      "topic": "考古遗址与地下水工程",
+      "length": 400,
+      "lengthGate": "PASS"
+    }
+  ],
+  "pairwise": [],
+  "existingDataset": [],
+  "threshold": "5-word gram overlap < 0.25; exact normalized duplicate forbidden"
+}

@@ -1,0 +1,5 @@
+import React from 'react';
+export const navigate=id=>window.dispatchEvent(new CustomEvent('catti:navigate',{detail:id}));
+const routes={'训练':'training','翻译实务':'practical','综合能力':'comprehensive-hub','整套模拟':'simulation','题库':'questions','学习':'records','首页':'today'};
+export function Crumbs({items,back}){return <nav className="breadcrumbs" aria-label="面包屑导航">{back&&<button type="button" className="back-glyph" aria-label="返回上一层" onClick={back}>←</button>}{items.map((item,i)=><React.Fragment key={i}>{i>0&&<span aria-hidden="true">›</span>}{i===items.length-1?<span aria-current="page" className="current">{item.label}</span>:<button type="button" onClick={item.onClick||(()=>navigate(item.to||routes[item.label]))}>{item.label}</button>}</React.Fragment>)}</nav>}
+export default function BackAction({to,label,onClick,current}){const parts=label.split(' › ');const parent=parts[0];const end=current||parts[1]||'训练';return <Crumbs back={onClick||(()=>navigate(to))} items={[{label:parent,to,onClick},{label:end}]}/>}

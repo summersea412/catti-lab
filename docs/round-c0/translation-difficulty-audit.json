@@ -1,0 +1,1097 @@
+{
+  "benchmark": {
+    "source": "37 trainable public CATTI practical passages",
+    "metrics": {
+      "sampleCount": 37,
+      "avgWords": 463.9,
+      "avgChars": 442.4,
+      "avgSentenceComplexity": 18.4
+    }
+  },
+  "sentence": [
+    {
+      "id": "sentence_practice_zh-en_001",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 31,
+        "words": 0,
+        "avgSentence": 31,
+        "longest": 31,
+        "complexClauses": 1,
+        "domain": "社会发展"
+      }
+    },
+    {
+      "id": "sentence_practice_zh-en_002",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 30,
+        "words": 0,
+        "avgSentence": 30,
+        "longest": 30,
+        "complexClauses": 1,
+        "domain": "公共文化"
+      }
+    },
+    {
+      "id": "sentence_practice_zh-en_003",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 25,
+        "words": 0,
+        "avgSentence": 25,
+        "longest": 25,
+        "complexClauses": 1,
+        "domain": "科技创新"
+      }
+    },
+    {
+      "id": "sentence_practice_zh-en_004",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 25,
+        "words": 0,
+        "avgSentence": 25,
+        "longest": 25,
+        "complexClauses": 1,
+        "domain": "教育"
+      }
+    },
+    {
+      "id": "sentence_practice_zh-en_005",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 24,
+        "words": 0,
+        "avgSentence": 24,
+        "longest": 24,
+        "complexClauses": 1,
+        "domain": "环境与可持续发展"
+      }
+    },
+    {
+      "id": "sentence_practice_zh-en_006",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 27,
+        "words": 0,
+        "avgSentence": 27,
+        "longest": 27,
+        "complexClauses": 0,
+        "domain": "经济发展"
+      }
+    },
+    {
+      "id": "sentence_practice_zh-en_007",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 23,
+        "words": 0,
+        "avgSentence": 23,
+        "longest": 23,
+        "complexClauses": 1,
+        "domain": "国际交流"
+      }
+    },
+    {
+      "id": "sentence_practice_zh-en_008",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 27,
+        "words": 0,
+        "avgSentence": 27,
+        "longest": 27,
+        "complexClauses": 1,
+        "domain": "城市治理"
+      }
+    },
+    {
+      "id": "sentence_practice_zh-en_009",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 26,
+        "words": 0,
+        "avgSentence": 26,
+        "longest": 26,
+        "complexClauses": 1,
+        "domain": "数字社会"
+      }
+    },
+    {
+      "id": "sentence_practice_zh-en_010",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 27,
+        "words": 0,
+        "avgSentence": 27,
+        "longest": 27,
+        "complexClauses": 1,
+        "domain": "传统文化"
+      }
+    },
+    {
+      "id": "sentence_practice_en-zh_001",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 14,
+        "avgSentence": 14,
+        "longest": 14,
+        "complexClauses": 0,
+        "domain": "翻译方法"
+      }
+    },
+    {
+      "id": "sentence_practice_en-zh_002",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 14,
+        "avgSentence": 14,
+        "longest": 14,
+        "complexClauses": 0,
+        "domain": "公共政策"
+      }
+    },
+    {
+      "id": "sentence_practice_en-zh_003",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 11,
+        "avgSentence": 11,
+        "longest": 11,
+        "complexClauses": 0,
+        "domain": "科技创新"
+      }
+    },
+    {
+      "id": "sentence_practice_en-zh_004",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 13,
+        "avgSentence": 13,
+        "longest": 13,
+        "complexClauses": 0,
+        "domain": "教育"
+      }
+    },
+    {
+      "id": "sentence_practice_en-zh_005",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 11,
+        "avgSentence": 11,
+        "longest": 11,
+        "complexClauses": 0,
+        "domain": "环境与可持续发展"
+      }
+    },
+    {
+      "id": "sentence_practice_en-zh_006",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 12,
+        "avgSentence": 12,
+        "longest": 12,
+        "complexClauses": 0,
+        "domain": "经济发展"
+      }
+    },
+    {
+      "id": "sentence_practice_en-zh_007",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 12,
+        "avgSentence": 12,
+        "longest": 12,
+        "complexClauses": 0,
+        "domain": "国际交流"
+      }
+    },
+    {
+      "id": "sentence_practice_en-zh_008",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 16,
+        "avgSentence": 16,
+        "longest": 16,
+        "complexClauses": 0,
+        "domain": "城市治理"
+      }
+    },
+    {
+      "id": "sentence_practice_en-zh_009",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 10,
+        "avgSentence": 10,
+        "longest": 10,
+        "complexClauses": 0,
+        "domain": "数字社会"
+      }
+    },
+    {
+      "id": "sentence_practice_en-zh_010",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 12,
+        "avgSentence": 12,
+        "longest": 12,
+        "complexClauses": 1,
+        "domain": "传统文化"
+      }
+    },
+    {
+      "id": "roundb_sentence_zh_en_001",
+      "direction": "zh-en",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 62,
+        "words": 0,
+        "avgSentence": 62,
+        "longest": 62,
+        "complexClauses": 2,
+        "domain": "公共政策"
+      }
+    },
+    {
+      "id": "roundb_sentence_zh_en_002",
+      "direction": "zh-en",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 63,
+        "words": 0,
+        "avgSentence": 63,
+        "longest": 63,
+        "complexClauses": 3,
+        "domain": "能源转型"
+      }
+    },
+    {
+      "id": "roundb_sentence_zh_en_003",
+      "direction": "zh-en",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 58,
+        "words": 0,
+        "avgSentence": 58,
+        "longest": 58,
+        "complexClauses": 3,
+        "domain": "教育"
+      }
+    },
+    {
+      "id": "roundb_sentence_zh_en_004",
+      "direction": "zh-en",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 59,
+        "words": 0,
+        "avgSentence": 59,
+        "longest": 59,
+        "complexClauses": 3,
+        "domain": "科研"
+      }
+    },
+    {
+      "id": "roundb_sentence_zh_en_005",
+      "direction": "zh-en",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 62,
+        "words": 0,
+        "avgSentence": 62,
+        "longest": 62,
+        "complexClauses": 4,
+        "domain": "国际合作"
+      }
+    },
+    {
+      "id": "roundb_sentence_zh_en_006",
+      "direction": "zh-en",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 60,
+        "words": 0,
+        "avgSentence": 60,
+        "longest": 60,
+        "complexClauses": 3,
+        "domain": "文化"
+      }
+    },
+    {
+      "id": "roundb_sentence_zh_en_007",
+      "direction": "zh-en",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 61,
+        "words": 0,
+        "avgSentence": 61,
+        "longest": 61,
+        "complexClauses": 2,
+        "domain": "公共预算"
+      }
+    },
+    {
+      "id": "roundb_sentence_zh_en_008",
+      "direction": "zh-en",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 65,
+        "words": 0,
+        "avgSentence": 65,
+        "longest": 65,
+        "complexClauses": 2,
+        "domain": "平台经济"
+      }
+    },
+    {
+      "id": "roundb_sentence_zh_en_009",
+      "direction": "zh-en",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 58,
+        "words": 0,
+        "avgSentence": 58,
+        "longest": 58,
+        "complexClauses": 2,
+        "domain": "生态保护"
+      }
+    },
+    {
+      "id": "roundb_sentence_zh_en_010",
+      "direction": "zh-en",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 67,
+        "words": 0,
+        "avgSentence": 67,
+        "longest": 67,
+        "complexClauses": 2,
+        "domain": "档案"
+      }
+    },
+    {
+      "id": "roundb_sentence_en_zh_001",
+      "direction": "en-zh",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 29,
+        "avgSentence": 29,
+        "longest": 29,
+        "complexClauses": 1,
+        "domain": "金融"
+      }
+    },
+    {
+      "id": "roundb_sentence_en_zh_002",
+      "direction": "en-zh",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 31,
+        "avgSentence": 31,
+        "longest": 31,
+        "complexClauses": 1,
+        "domain": "技术治理"
+      }
+    },
+    {
+      "id": "roundb_sentence_en_zh_003",
+      "direction": "en-zh",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 30,
+        "avgSentence": 30,
+        "longest": 30,
+        "complexClauses": 2,
+        "domain": "教育"
+      }
+    },
+    {
+      "id": "roundb_sentence_en_zh_004",
+      "direction": "en-zh",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 35,
+        "avgSentence": 35,
+        "longest": 35,
+        "complexClauses": 1,
+        "domain": "环境"
+      }
+    },
+    {
+      "id": "roundb_sentence_en_zh_005",
+      "direction": "en-zh",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 31,
+        "avgSentence": 31,
+        "longest": 31,
+        "complexClauses": 1,
+        "domain": "科研"
+      }
+    },
+    {
+      "id": "roundb_sentence_en_zh_006",
+      "direction": "en-zh",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 29,
+        "avgSentence": 29,
+        "longest": 29,
+        "complexClauses": 0,
+        "domain": "劳动"
+      }
+    },
+    {
+      "id": "roundb_sentence_en_zh_007",
+      "direction": "en-zh",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 31,
+        "avgSentence": 31,
+        "longest": 31,
+        "complexClauses": 1,
+        "domain": "公共数据"
+      }
+    },
+    {
+      "id": "roundb_sentence_en_zh_008",
+      "direction": "en-zh",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 32,
+        "avgSentence": 32,
+        "longest": 32,
+        "complexClauses": 2,
+        "domain": "城市发展"
+      }
+    },
+    {
+      "id": "roundb_sentence_en_zh_009",
+      "direction": "en-zh",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 29,
+        "avgSentence": 29,
+        "longest": 29,
+        "complexClauses": 2,
+        "domain": "国际贸易"
+      }
+    },
+    {
+      "id": "roundb_sentence_en_zh_010",
+      "direction": "en-zh",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 28,
+        "avgSentence": 28,
+        "longest": 28,
+        "complexClauses": 2,
+        "domain": "科学传播"
+      }
+    }
+  ],
+  "paragraph": [
+    {
+      "id": "paragraph_zh-en_001",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 146,
+        "words": 0,
+        "avgSentence": 0,
+        "longest": 37,
+        "complexClauses": 6,
+        "domain": "社会发展"
+      }
+    },
+    {
+      "id": "paragraph_zh-en_002",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 132,
+        "words": 0,
+        "avgSentence": 0,
+        "longest": 33,
+        "complexClauses": 5,
+        "domain": "公共文化"
+      }
+    },
+    {
+      "id": "paragraph_zh-en_003",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 228,
+        "words": 0,
+        "avgSentence": 0,
+        "longest": 31,
+        "complexClauses": 9,
+        "domain": "环境与可持续发展"
+      }
+    },
+    {
+      "id": "paragraph_zh-en_004",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 293,
+        "words": 0,
+        "avgSentence": 0,
+        "longest": 52,
+        "complexClauses": 15,
+        "domain": "科技创新"
+      }
+    },
+    {
+      "id": "paragraph_zh-en_005",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 297,
+        "words": 0,
+        "avgSentence": 0,
+        "longest": 49,
+        "complexClauses": 13,
+        "domain": "教育"
+      }
+    },
+    {
+      "id": "paragraph_zh-en_006",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 299,
+        "words": 0,
+        "avgSentence": 0,
+        "longest": 46,
+        "complexClauses": 12,
+        "domain": "城市治理"
+      }
+    },
+    {
+      "id": "paragraph_zh-en_007",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 301,
+        "words": 0,
+        "avgSentence": 0,
+        "longest": 44,
+        "complexClauses": 13,
+        "domain": "数字社会"
+      }
+    },
+    {
+      "id": "paragraph_zh-en_008",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 279,
+        "words": 0,
+        "avgSentence": 0,
+        "longest": 48,
+        "complexClauses": 11,
+        "domain": "环境与能源"
+      }
+    },
+    {
+      "id": "paragraph_zh-en_009",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 263,
+        "words": 0,
+        "avgSentence": 0,
+        "longest": 44,
+        "complexClauses": 10,
+        "domain": "国际交流"
+      }
+    },
+    {
+      "id": "paragraph_zh-en_010",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 264,
+        "words": 0,
+        "avgSentence": 0,
+        "longest": 39,
+        "complexClauses": 13,
+        "domain": "农业与商业"
+      }
+    },
+    {
+      "id": "paragraph_zh-en_011",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 269,
+        "words": 0,
+        "avgSentence": 0,
+        "longest": 44,
+        "complexClauses": 10,
+        "domain": "公共健康"
+      }
+    },
+    {
+      "id": "paragraph_zh-en_012",
+      "direction": "zh-en",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 260,
+        "words": 0,
+        "avgSentence": 0,
+        "longest": 43,
+        "complexClauses": 12,
+        "domain": "文化遗产"
+      }
+    },
+    {
+      "id": "paragraph_en-zh_001",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 115,
+        "avgSentence": 16.4,
+        "longest": 20,
+        "complexClauses": 3,
+        "domain": "教育"
+      }
+    },
+    {
+      "id": "paragraph_en-zh_002",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 112,
+        "avgSentence": 16,
+        "longest": 21,
+        "complexClauses": 3,
+        "domain": "城市发展"
+      }
+    },
+    {
+      "id": "paragraph_en-zh_003",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 180,
+        "avgSentence": 16.4,
+        "longest": 28,
+        "complexClauses": 5,
+        "domain": "数字社会"
+      }
+    },
+    {
+      "id": "paragraph_en-zh_004",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 247,
+        "avgSentence": 17.6,
+        "longest": 26,
+        "complexClauses": 8,
+        "domain": "科技创新"
+      }
+    },
+    {
+      "id": "paragraph_en-zh_005",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 247,
+        "avgSentence": 17.6,
+        "longest": 26,
+        "complexClauses": 7,
+        "domain": "环境"
+      }
+    },
+    {
+      "id": "paragraph_en-zh_006",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 248,
+        "avgSentence": 16.5,
+        "longest": 26,
+        "complexClauses": 8,
+        "domain": "商业与社会"
+      }
+    },
+    {
+      "id": "paragraph_en-zh_007",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 260,
+        "avgSentence": 18.6,
+        "longest": 28,
+        "complexClauses": 11,
+        "domain": "公共政策"
+      }
+    },
+    {
+      "id": "paragraph_en-zh_008",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 256,
+        "avgSentence": 18.3,
+        "longest": 26,
+        "complexClauses": 9,
+        "domain": "农业"
+      }
+    },
+    {
+      "id": "paragraph_en-zh_009",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 239,
+        "avgSentence": 18.4,
+        "longest": 32,
+        "complexClauses": 6,
+        "domain": "文化交流"
+      }
+    },
+    {
+      "id": "paragraph_en-zh_010",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 246,
+        "avgSentence": 18.9,
+        "longest": 31,
+        "complexClauses": 9,
+        "domain": "城市治理"
+      }
+    },
+    {
+      "id": "paragraph_en-zh_011",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 235,
+        "avgSentence": 18.1,
+        "longest": 26,
+        "complexClauses": 4,
+        "domain": "数字经济"
+      }
+    },
+    {
+      "id": "paragraph_en-zh_012",
+      "direction": "en-zh",
+      "currentTier": "foundation",
+      "benchmarkResult": "FOUNDATION",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 230,
+        "avgSentence": 16.4,
+        "longest": 26,
+        "complexClauses": 6,
+        "domain": "社会议题"
+      }
+    }
+  ],
+  "examPassage": [
+    {
+      "id": "exam_reviewed_zh_en_001",
+      "direction": "zh-en",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 287,
+        "words": 0,
+        "avgSentence": 41,
+        "longest": 56,
+        "complexClauses": 16,
+        "domain": "城市防洪"
+      }
+    },
+    {
+      "id": "exam_reviewed_zh_en_002",
+      "direction": "zh-en",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 289,
+        "words": 0,
+        "avgSentence": 41.3,
+        "longest": 50,
+        "complexClauses": 10,
+        "domain": "科研评价"
+      }
+    },
+    {
+      "id": "exam_reviewed_zh_en_003",
+      "direction": "zh-en",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 295,
+        "words": 0,
+        "avgSentence": 42.1,
+        "longest": 57,
+        "complexClauses": 13,
+        "domain": "文化与旅游"
+      }
+    },
+    {
+      "id": "exam_reviewed_zh_en_004",
+      "direction": "zh-en",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 300,
+        "words": 0,
+        "avgSentence": 37.5,
+        "longest": 48,
+        "complexClauses": 15,
+        "domain": "供应链"
+      }
+    },
+    {
+      "id": "exam_reviewed_en_zh_001",
+      "direction": "en-zh",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 451,
+        "avgSentence": 17.3,
+        "longest": 31,
+        "complexClauses": 17,
+        "domain": "公共能源投资"
+      }
+    },
+    {
+      "id": "exam_reviewed_en_zh_002",
+      "direction": "en-zh",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 444,
+        "avgSentence": 16.4,
+        "longest": 34,
+        "complexClauses": 19,
+        "domain": "人工智能与采购"
+      }
+    },
+    {
+      "id": "exam_reviewed_en_zh_003",
+      "direction": "en-zh",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 454,
+        "avgSentence": 18.2,
+        "longest": 32,
+        "complexClauses": 10,
+        "domain": "养老金沟通"
+      }
+    },
+    {
+      "id": "exam_reviewed_en_zh_004",
+      "direction": "en-zh",
+      "currentTier": "catti-standard",
+      "benchmarkResult": "WITHIN BENCHMARK",
+      "action": "KEEP",
+      "metrics": {
+        "chars": 0,
+        "words": 451,
+        "avgSentence": 17.3,
+        "longest": 28,
+        "complexClauses": 15,
+        "domain": "农业育种与种子保存"
+      }
+    }
+  ]
+}

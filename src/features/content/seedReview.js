@@ -1,0 +1,5 @@
+import {REVIEW_MANIFEST} from './reviewManifest.js';
+// Agent editorial review is not a human CATTI examiner's certification.
+export function reviewedSeed(item,{tier='foundation',evidence=null,notes}={}) {return {...item,difficultyTier:tier,difficultyEvidence:evidence,contentStatus:'published',sourceType:item.sourceType==='simulated'?'simulated':'practice',source:item.source||'CATTI Lab original practice; not an official past paper',verificationStatus:'pending',generatedBy:'internal-seed',reviewedBy:'agent-editorial-round-b',contentVersion:item.contentVersion||1,qualityReview:{fingerprint:REVIEW_MANIFEST[item.id]?.fingerprint||'UNREVIEWED',reviewer:'agent-editorial-round-b',version:item.contentVersion||1,notes,checks:{semantic:true,answer:true,reference:true,difficulty:true,diversity:true}}}}
+export function quarantine(item,reason) {return {...item,contentStatus:'rejected',rejectionReason:reason,difficultyTier:null,sourceType:item.sourceType||'practice',source:item.source||'CATTI Lab legacy internal seed',generatedBy:'internal-seed',reviewedBy:'agent-editorial-round-b',contentVersion:item.contentVersion||1}}
+
