@@ -152,3 +152,24 @@ npm test
 npm run content:check
 ```
 
+
+## Production deployment — 唯一正式环境
+
+CATTI Lab 唯一正式生产环境是现有 Cloudflare Worker **catti-lab**：
+https://catti-lab.672385493.workers.dev
+
+“部署 / 更新线上版本”默认只更新这个 Worker。不创建新的 Worker、Pages 项目或替代 URL；不使用历史 `.openai/hosting.json` 向 chatgpt.site 发布。
+
+正式工作目录：`D:\projects\catti\catti-study-assistant`，正式分支：`main`。旧 `D:\catti-study-assistant-v2` 不作为部署来源。
+
+部署使用 Workers Static Assets。根目录 `wrangler.jsonc` 指定 `dist`、现有 Worker 名称、`2026-09-18` compatibility date 和 `single-page-application` 回退。学习分析直接地址为 `/analysis`；`/vocabulary` 等前端路由可直接访问和刷新。
+
+```powershell
+npx.cmd wrangler whoami
+npx.cmd wrangler deployments status --name catti-lab
+npm run build
+npx.cmd wrangler deploy --config wrangler.jsonc --name catti-lab --dry-run
+npx.cmd wrangler deploy --config wrangler.jsonc --name catti-lab
+```
+
+部署前核对 main 提交、构建成功和现有 Worker 名称；若账号不匹配或 Worker 不存在，停止，不创建替代资源。登录使用本机 Wrangler OAuth，不将 Token、OAuth 凭据或 Account ID 写入仓库。部署后核对返回地址、版本 ID，并在正式 URL 验证页面和刷新行为。
